@@ -29,9 +29,13 @@ WebUI.setText(findTestObject('Page_Clientes/input_Cliente Nro_vCLIENTENRO'), CLI
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
+WebUI.click(findTestObject('Page_Clientes/input_Home Pack_SEARCHBUTTON'))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Servicios'))
 
@@ -41,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_ANA BORDALLO ABAD/input_Histr
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Page_Ingreso de Servicio de Clientee/select_NingunoINSTALACION DE AMPLIFICADOR 1_84c31f'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'), 
     '1', true)
 
 WebUI.delay(5)

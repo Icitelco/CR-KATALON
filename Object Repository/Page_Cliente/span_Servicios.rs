@@ -6,10 +6,6 @@
    <elementGuidId>4752f1fe-5cd1-4df4-9668-99302604d15b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Servicios' or . = 'Servicios')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ClienteServicioTab > span.TabRight > span.TabBackground > span.TabText</value>
       </entry>
@@ -17,11 +13,15 @@
          <key>XPATH</key>
          <value>//a[@id='ClienteServicioTab']/span/span/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ClienteServicioTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,14 +35,14 @@
       <value>TabText</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Servicios</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
