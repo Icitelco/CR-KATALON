@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "D95803F464BEBE20CCF798B89B79AD38",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_INGRESADO_DTH",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

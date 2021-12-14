@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "39DFA8EF7BCBF77BBE82B856998882E7",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_CANTIDAD_CAJAS_ALAJUELA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

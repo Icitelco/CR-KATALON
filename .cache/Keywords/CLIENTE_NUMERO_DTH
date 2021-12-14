@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "EAAB872585C14FA99F9B0295E77F6A72",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_NUMERO_DTH",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

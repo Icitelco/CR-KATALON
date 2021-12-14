@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "561F232D7AAD08DE6420F9A12ADEFC99",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_NRO_PRODUCTOTEMPORAL",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

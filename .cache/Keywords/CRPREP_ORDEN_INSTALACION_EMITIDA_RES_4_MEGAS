@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "7D031B55039BBC00EEE5F288A6E60334",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_ORDEN_INSTALACION_EMITIDA_RES_4_MEGAS",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

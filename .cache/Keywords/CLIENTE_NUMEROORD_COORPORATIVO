@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "EC615BBC0EDE22C9D4534AA491CAF354",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_NUMEROORD_COORPORATIVO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

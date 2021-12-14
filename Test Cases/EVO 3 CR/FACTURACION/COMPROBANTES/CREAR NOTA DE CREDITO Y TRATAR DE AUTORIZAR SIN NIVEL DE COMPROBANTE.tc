@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CREAR NOTA DE CREDITO Y TRATAR DE AUTORIZAR SIN NIVEL DE COMPROBANTE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25cbe6cc-a24b-465e-a667-440df0ab612c</testCaseGuid>
+</TestCaseEntity>

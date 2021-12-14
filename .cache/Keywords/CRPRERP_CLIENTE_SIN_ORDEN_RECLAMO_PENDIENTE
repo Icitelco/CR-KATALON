@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E6DEE1AD966916A26A9D68703AB1CE0E",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_CLIENTE_SIN_ORDEN_RECLAMO_PENDIENTE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

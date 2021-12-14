@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E4B1C7E5C6879EB5520B4C7E93CD0152",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_STS_PENDIENTE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

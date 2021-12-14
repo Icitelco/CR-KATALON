@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CB9318BA581D894F77C5645C3875AA55",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_NUMEROORD_HOME",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

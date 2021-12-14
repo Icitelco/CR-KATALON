@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CREAR NOTA DE DEBITO SIN OBSERVACION</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c7d1a59-108c-4211-bca8-5a68e08360e5</testCaseGuid>
+</TestCaseEntity>

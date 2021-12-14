@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "03CB757F7CFA443C43DC1461D08D9557",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_NROMAX_CAJA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

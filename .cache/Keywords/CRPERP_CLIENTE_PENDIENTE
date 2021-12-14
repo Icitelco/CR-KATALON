@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C01C9FC03B81DF5CECE8E115A9CE9F5C",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_CLIENTE_PENDIENTE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

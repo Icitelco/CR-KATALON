@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F1B3ACC3031232AA58B63E369DAEBE5D",
+  "keywordClasses": [
+    {
+      "name": "AACRPERP_CLIENTE_SIN_PREVENTA_INGRESADA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

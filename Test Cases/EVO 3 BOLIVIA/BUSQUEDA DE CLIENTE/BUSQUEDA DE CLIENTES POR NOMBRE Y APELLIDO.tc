@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BUSQUEDA DE CLIENTES POR NOMBRE Y APELLIDO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92e82c45-ba83-4cc3-af61-be1fc1d070f8</testCaseGuid>
+</TestCaseEntity>

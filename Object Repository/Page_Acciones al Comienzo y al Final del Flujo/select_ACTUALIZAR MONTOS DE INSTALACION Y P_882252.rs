@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ACTUALIZAR MONTOS DE INSTALACION Y P_882252</name>
+   <tag></tag>
+   <elementGuidId>6444cada-de7e-4ddb-a386-3232fe526d82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'W0027W0007W0009FLFLUJOPROGRAMAID' and @name = 'W0027W0007W0009FLFLUJOPROGRAMAID']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0027W0007W0009FLFLUJOPROGRAMAID</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>W0027W0007W0009FLFLUJOPROGRAMAID</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Trn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 46,'W0027W0007W0009',false,'',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>gx.evt.onchange(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,46);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gxoch0</name>
+      <type>Main</type>
+      <value>if(!(gx.evt.jsEvent(this))) return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+ACTUALIZAR MONTOS DE INSTALACION Y PROD QUE NOS MANDA SALESFORCEANALIZAR RECORD DE MOROSIDADANULAR TRAMITE SEGUN TIPO DE GESTIONASIGNAR USR PLEX DESIGN AUTOMATICAMENTEASIGNAR USUARIOS PLEX DESIGNAUTORIZACION DEL DACAUTORIZACION GERENCIAAVANZAR GESTIONCANCELA LAS ENTIDADES DE SIGA ASOCIADAS SEGUN TIPO DE GESTIONCREAR FLUJO EN SIGA Y GENERA LAS ENTIDADES ASOCIADAS AL MISMOCREAR SERVICIO EN SIGAENVIAR RESPUESTA VENDEDORESCALAR A CFOESCALAR A CONTROLLERESCALAR A CONTROLLER (MORA EXT)ESCALAR A JEFATURA DE CRÉDITO Y COBROSESCALAR A JEFATURA DE CRÉDITO Y COBROS (MORA EXT)ESCALAR CFO (MORA EXT)ESCALAR RESPUESTA FACTIBILIDAD NEGATIVAESCALAR RESPUESTA FACTIBILIDAD POSITIVAEXCEPCION APROBADAEXCEPCION APROBADA (MORA EXT)EXCEPCION NO APROBADAEXCEPCION NO APROBADA (MORA EXT)FACTURAR CONCEPTOS ADICIONALESFINALIZAR ORDENES Y FACTURARFINALIZAR SERVICIOS Y ORDENES RELACIONADASFINALIZAR TRAMITEINGRESAR GESTION EN SIGA (SERVICIO, PREVENTA, ETC)NOTIFICAR AL EJECUTIVOPEDIDO DE EXCEPCIÓN VENDEDORPEDIDO EXCEPCION MOROSIDAD INTERNAPROPUESTA APROBADAPROPUESTA APROBADA (MORA EXT)PROPUESTA NO APROBADAPROPUESTA NO APROBADA (MORA EXT)SITUACIÓN CREDITICIA CLIENTE - MOROSOTIPO DE EXCEPCIÓN - CONDICIONES ESPECIALESVALIDA EN FACTIBILIDAD QUE OTRAS ETAPAS AUN SIGAN EN PROCESOVALIDACIONES SEGUN TIPO DE GESTIONVALIDAR ALTA DE FACTIBILIDAD SEGUN GESTIONVALIDAR ASIGNACIÓN USUARIOS A PLEXWS RESPUESTA DE ACTUALIZACION DE CUENTAWS RESPUESTA DE FACTIBILIDAD A SALESFORCEWS RESPUESTA DE FACTURA DE FACTIBILIDAD A SFWS RESPUESTA DE FLUJOS TECNICOS - FACT NEGATIVOWS RESPUESTA DE FLUJOS TECNICOS - FACT POSITIVAWS RESPUESTA DE MORA A SALESFORCE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;W0027W0007W0009FLFLUJOPROGRAMAID&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0027W0007W0009FLFLUJOPROGRAMAID']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='W0027W0007W0009TABLE2']/tbody/tr[6]/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Id'])[2]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Orden'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activo?'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ejecucion'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BCAAA776A4A3DB715141AC76F7699A02",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_NOMBRE_MAXTECNICOO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CAJA PRUEBA_BTN_CREAR</name>
+   <tag></tag>
+   <elementGuidId>d5a44eae-07cc-4dd6-a3f8-985852c5a9bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='BTN_CREAR']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;TABLE3&quot;)/tbody[1]/tr[1]/td[2]/input[@class=&quot;Button_StandardBig&quot;][count(. | //*[@name = 'BTN_CREAR' and @title = 'Crear las cajas del día seleccionadas' and @ref_element = 'Object Repository/Page_Cajas Diarias de Oficina/iframe_Creacin de caja de una Oficina_gxp0_ifrm']) = count(//*[@name = 'BTN_CREAR' and @title = 'Crear las cajas del día seleccionadas' and @ref_element = 'Object Repository/Page_Cajas Diarias de Oficina/iframe_Creacin de caja de una Oficina_gxp0_ifrm'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>BTN_CREAR</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Crear Cajas</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Crear las cajas del día seleccionadas</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button_StandardBig</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>if( gx.evt.jsEvent(this)) {gx.evt.setGridEvt( 26,null);gx.evt.execEvt('E\'CREAR CAJAS\'.',this);} else return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 32,'',false,'',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TABLE3&quot;)/tbody[1]/tr[1]/td[2]/input[@class=&quot;Button_StandardBig&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Cajas Diarias de Oficina/iframe_Creacin de caja de una Oficina_gxp0_ifrm</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='BTN_CREAR']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='TABLE3']/tbody/tr/td[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

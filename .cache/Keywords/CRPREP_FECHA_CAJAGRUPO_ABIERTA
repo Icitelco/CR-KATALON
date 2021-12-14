@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A455BE494E637B40E7F5D504EC93CA00",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_FECHA_CAJAGRUPO_ABIERTA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

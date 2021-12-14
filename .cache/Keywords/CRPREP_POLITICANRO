@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "9EF15DB7CEAAEB2D110ED8F463032638",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_POLITICANRO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

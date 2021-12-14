@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_(Ninguno)EAMO3 ALQUILER CABLE MODEM _e6e274</name>
+   <tag></tag>
+   <elementGuidId>ae3606ab-f16c-45bd-b2d8-3446b1c7334c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;vE_POLITICAID_0003&quot;)[count(. | //*[@id = 'vE_POLITICAID_0003' and @name = 'vE_POLITICAID_0003']) = count(//*[@id = 'vE_POLITICAID_0003' and @name = 'vE_POLITICAID_0003'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vE_POLITICAID_0003</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>vE_POLITICAID_0003</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 89,'',false,'0003',67)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>gx.evt.onchange(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,89);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gxoch0</name>
+      <type>Main</type>
+      <value>if( gx.evt.jsEvent(this)) {gx.evt.execEvt('',false,'EVE_POLITICAID.CLICK.0003',this,67);} else return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(Ninguno)EAMO3 ALQUILER CABLE MODEM 3.0ALQUILER MODEM - DIG AVANZADO + 15 GAMALQUILER DE MODEM -DIG AVANZADO + 15MB RURALALQUILER DE MODEM - HD + 15MB GAMALQUILER DE MODEM - HD + 15MB RURALALQUILER DE MODEM - DVR + 15MB GAMALQUILER DE MODEM - DVR +15 MB RURALALQUILER DE MODEM -DIG AVANZADO + 30 MB GAMALQUILER DE MODEM -DIG AVANZADO +30 MB RURALALQUILER DE MODEM- HD +30 MB GAMALQUILER DE MODEM -HD +30 MB RURALALQUILER DE MODEM - DVR + 30MB GAMALQUILER DE MODEM -DVR + 30MB RURALALQUILER DE MODEM - TV DIGITAL + 30MBALQUILER DE MODEM - TV DVB + 20MBALQUILER DE MODEMALQUILER DE MODEM - TVHD + 20MBALQUILER DE MODEM - TVHD + 30MBAQLUILER DE MODEM - TVHD DVB + 30MBALQUILER DE MODEM - TVHD + 50MBMODEM TV HD + 10 MEGASMODEM -PLAN EMPLEADO TV HD + 15MBMODEM- PLAN EMPLEADO TV HD + 50MBMODEM -  PLAN EMPLEADO ONE TV + 75MBMODEM -  PLAN EMPLEADO ONE TV + 100MBMODEM -  PLAN EMPLEADO ONE TV DVR + 75MBMODEM - PLAN EMPLEADO ONE TV  DVR + 100MBAUTOCONSUMO- ALQUILER MODEM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vE_POLITICAID_0003&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='vE_POLITICAID_0003']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='GridproductosContainerRow_0003']/td[22]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALQUILER'])[1]/following::select[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='L'])[1]/following::select[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COMUN'])[3]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¢'])[5]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[22]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

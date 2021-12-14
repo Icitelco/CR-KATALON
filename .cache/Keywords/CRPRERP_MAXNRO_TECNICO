@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CE59E8CBCEADFF1FF6050A03A6D8C120",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_MAXNRO_TECNICO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

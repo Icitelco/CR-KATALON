@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "94971FB1DA9729010B197294CD5396FF",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_CON_PRODUCTO_DE_TEMPORAL",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

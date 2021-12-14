@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "006B0C3C4491672C8BFC94DC16305669",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_COBRADOR_Y_CAJA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "CobradorID",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

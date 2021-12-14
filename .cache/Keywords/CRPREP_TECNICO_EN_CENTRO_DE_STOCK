@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BE119A6BFE65399672043E9AB237A70A",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_TECNICO_EN_CENTRO_DE_STOCK",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "D69EB12D1D76CD7D431439522D6570E6",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_ORDEN_SIN_APROVISIONAR",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PRUEBA</name>
+   <tag></tag>
+   <elementGuidId>803968f3-f3ec-4920-b418-5a211e9572ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@PRUEBA, 'confirm-ok-')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@text='Aceptar']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>PRUEBA</name>
+      <type>Main</type>
+      <value>confirm-ok-</value>
+   </webElementProperties>
+</WebElementEntity>

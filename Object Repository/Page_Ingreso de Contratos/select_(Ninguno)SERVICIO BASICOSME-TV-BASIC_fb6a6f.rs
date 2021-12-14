@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_(Ninguno)SERVICIO BASICOSME-TV-BASIC_fb6a6f</name>
+   <tag></tag>
+   <elementGuidId>2ef9ebc2-71c5-43b7-84ef-58fc1d88d660</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='vE_POLITICAID_0001']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'vE_POLITICAID_0001' and @name = 'vE_POLITICAID_0001']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>vE_POLITICAID_0001</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>vE_POLITICAID_0001</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Attribute_Grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onfocus</name>
+      <type>Main</type>
+      <value>gx.evt.onfocus(this, 194,'',false,'0001',169)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>gx.evt.onchange(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>;gx.evt.onblur(this,194);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gxoch0</name>
+      <type>Main</type>
+      <value>if( gx.evt.jsEvent(this)) {gx.evt.execEvt('',false,'EVE_POLITICAID.CLICK.0001',this,169);} else return false;</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(Ninguno)SERVICIO BASICOSME-TV-BASICA-PRECIO-ESPECIALSERVICIO BASICO - INTERNET 8.5/3 MBPS + TV DIGSERVICIO BASICO - INTERNET 8.5/3 MBPS + TV HDSERVICIO BASICO TV-PLAN 1043SERVICIO BASICO TV-PLAN 1044SERVICIO BASICO TV-PLAN 1045SERVICIO BASICO TV-PLAN 1046SERVICIO BASICO TV-PLAN 1047SERVICIO BASICO TV-PLAN 1048SERVICIO BASICO TV-PLAN 1049SERVICIO BASICO TV-PLAN 1050SERVICIO BASICO TV-PLAN 1051SERVICIO BASICO TV-PLAN 1052SERVICIO BASICO TV-PLAN 1053SERVICIO BASICO TV-PLAN 1054SERVICIO BASICO TV-PLAN 1055SERVICIO BASICO TV-PLAN 1056SERVICIO BASICO TV-PLAN 1057SERVICIO BASICO TV-PLAN 1058SERVICIO BASICO TV-PLAN 1059SERVICIO BASICO TV-PLAN 1060SERVICIO BASICO TV-PLAN 1061SERVICIO BASICO TV-PLAN 1063SERVICIO BASICO TV-PLAN 1064SERVICIO BASICO TV-PLAN 1065SERVICIO BASICO TV-PLAN 1066SERVICIO BASICO TV-PLAN 1067SERVICIO BASICO TV-PLAN 1068SERVICIO BASICO TV-PLAN 1069SERVICIO BASICO TV-PLAN 1070SERVICIO BASICO TV-PLAN 1071SERVICIO BASICO TV-PLAN 1072SERVICIO BASICO TV-PLAN 1073SERVICIO BASICO TV-PLAN 1074SERVICIO BASICO TV-PLAN 1075SERVICIO BASICO TV-PLAN 1076SERVICIO BASICO TV-PLAN 1077SERVICIO BASICO TV-PLAN 1078SERVICIO BASICO TV-PLAN 1079SERVICIO BASICO TV-PLAN 1080SERVICIO BASICO TV-PLAN 1081SERVICIO BASICO TV-PLAN 1082SERVICIO BASICO TV-PLAN 1083SERVICIO BASICO TV-PLAN 1084SERVICIO BASICO TV-PLAN 1085SERVICIO BASICO TV-PLAN 1086SERVICIO BASICO TV-PLAN 1087SERVICIO BASICO TV-PLAN 1088SERVICIO BASICO TV-PLAN 1089SERVICIO BASICO TV-PLAN 1090SERVICIO BASICO TV-PLAN 1091SERVICIO BASICO TV-PLAN 1092SERVICIO BASICO TV-PLAN 1093SERVICIO BASICO TV-PLAN 1094SERVICIO BASICO TV-PLAN 1095SERVICIO BASICO TV-PLAN 1096SERVICIO BASICO TV-PLAN 1097SERVICIO BASICO TV-PLAN 1098SERVICIO BASICO TV-PLAN 1099SERVICIO BASICO TV-PLAN 1100SERVICIO BASICO TV-PLAN 1101SERVICIO BASICO TV-PLAN 1102SERVICIO BASICO TV-PLAN 1103SERVICIO BASICO TV-PLAN 1104SERVICIO BASICO TV-PLAN-PLAN 1116SERVICIO BASICO TV-PLAN 1117SERVICIO BASICO TV-PLAN 1118SERVICIO BASICO TV-PLAN 1119SERVICIO BASICO TV-PLAN -PLAN 1136SERVICIO BASICO TV-PLAN-PLAN 1137PYMES-SERVICIO BASICO TV DVB + 6 MBPYMES-SERVICIO BASICO TV DVB + 10 MBPYMES-SERVICIO BASICO TV DVB + 15 MBPYMES-SERVICIO BASICO TV DIG + 6 MBPYMES-SERVICIO BASICO TV DIG + 10 MBPYMES-SERVICIO BASICO TV DIG + 15 MBPYMES-SERVICIO BASICO TV DIG + 50 MBSERVICIO BASICO TV-PLAN-1183SERVICIO BASICO TV-PLAN-1184SERVICIO BASICO TV-PLAN-1186SERVICIO BASICO TV-PLAN-1187SERVICIO BASICO TV-PLAN-1188SERVICIO BASICO TV-PLAN-1189SERVICIO BASICO TV-PLAN-1190SERVICIO BASICO TV-PLAN-1191SERVICIO BASICO TV-PLAN-1192SERVICIO BASICO TV-PLAN-1193SERVICIO BASICO TV-PLAN-1194SERVICIO BASICO TV-PLAN-1195SERVICIO BASICO TV-PLAN-1185ATERRIZADA-SME TV BASICASERVICIO BASICO CM-TV DIGITAL (MIGRACION)SME SERVICIO BASICO-PLAN 1232SME SERVICIO BASICO-PLAN 1233SME SERVICIO BASICO TV-PLAN 1234SERVICIO BASICO TV PLAN-1243SERVICIO BASICO TV PLAN-1244SERVICIO BASICO TV PLAN-1245SERVICIO BASICO TV PLAN-1246SERVICIO BASICO TV PLAN-1247SERVICIO BASICO TV PLAN-1248SERVICIO BASICO TV PLAN-1249</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vE_POLITICAID_0001&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='vE_POLITICAID_0001']</value>
+   </webElementXpaths>
+</WebElementEntity>

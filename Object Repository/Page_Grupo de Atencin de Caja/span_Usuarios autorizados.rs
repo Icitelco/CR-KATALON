@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Usuarios autorizados</name>
+   <tag></tag>
+   <elementGuidId>1bd7e918-7a24-408c-988c-f58d11c62833</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;CajaGrupoUsuarioTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;][count(. | //*[(text() = 'Usuarios autorizados' or . = 'Usuarios autorizados')]) = count(//*[(text() = 'Usuarios autorizados' or . = 'Usuarios autorizados')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CajaGrupoUsuarioTab']/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TabText</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Usuarios autorizados</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CajaGrupoUsuarioTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='CajaGrupoUsuarioTab']/span/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

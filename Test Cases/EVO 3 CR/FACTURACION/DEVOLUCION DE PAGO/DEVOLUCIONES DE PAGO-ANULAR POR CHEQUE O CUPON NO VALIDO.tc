@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DEVOLUCIONES DE PAGO-ANULAR POR CHEQUE O CUPON NO VALIDO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aab922ab-db69-4921-ac9d-729278dd2a35</testCaseGuid>
+</TestCaseEntity>

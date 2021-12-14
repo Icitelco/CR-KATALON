@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_K2BContext xmlnsSIGA-TGUsuarioId16819Us_257b61</name>
+   <tag></tag>
+   <elementGuidId>f7177a4d-4149-4c67-8d9c-92feacf6a152</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='MAINFORM']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.content-main</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>content-main</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>&lt;K2BContext xmlns=&quot;SIGA-TG&quot;>
+	&lt;UsuarioId>16819&lt;/UsuarioId>
+	&lt;UsuarioNom>MAURICIO ARCAUZ&lt;/UsuarioNom>
+	&lt;UsuarioLgn>MARCAUZ&lt;/UsuarioLgn>
+	&lt;UsuarioEmail>mauricio.arcauz@icitelco.com.uy&lt;/UsuarioEmail>
+	&lt;OrganizacionId>1&lt;/OrganizacionId>
+	&lt;OrganizacionNom>ICITELCO&lt;/OrganizacionNom>
+	&lt;AplicacionId>SIGA&lt;/AplicacionId>
+	&lt;AplicacionModo/>
+	&lt;AplLogoNom>Resources/newsiga_catv.jpg&lt;/AplLogoNom>
+	&lt;RolId>ADM 1&lt;/RolId>
+	&lt;RolNom>ADMINISTRADOR S1GA&lt;/RolNom>
+	&lt;EmpresaId>10&lt;/EmpresaId>
+	&lt;EmpLogoNom>Resources/tigo_logo.gif&lt;/EmpLogoNom>
+	&lt;PaisId>10&lt;/PaisId>
+	&lt;EstadoId>1&lt;/EstadoId>
+	&lt;CiudadId>10&lt;/CiudadId>
+	&lt;UsuarioEmpresas>
+		&lt;SDTUsuarioEmpresas.SDTUsuarioEmpresasItem xmlns=&quot;SIGA-TG&quot;>
+			&lt;EmpresaId>10&lt;/EmpresaId>
+			&lt;EmpresaNom>TIGO - PRE PRODUCCION&lt;/EmpresaNom>
+			&lt;EmpLogoNom>Resources/tigo_logo.gif&lt;/EmpLogoNom>
+			&lt;PaisId>10&lt;/PaisId>
+			&lt;Estados>
+				&lt;EstadosItem>
+					&lt;EstadoId>1&lt;/EstadoId>
+				&lt;/EstadosItem>
+			&lt;/Estados>
+			&lt;Ciudades>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>1&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>2&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>3&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>4&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>8&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>9&lt;/CiudadId>
+				&lt;/CiudadesItem>
+				&lt;CiudadesItem>
+					&lt;EstadoId>0&lt;/EstadoId>
+					&lt;CiudadId>10&lt;/CiudadId>
+				&lt;/CiudadesItem>
+			&lt;/Ciudades>
+		&lt;/SDTUsuarioEmpresas.SDTUsuarioEmpresasItem>
+	&lt;/UsuarioEmpresas>
+	&lt;MenuLoad>false&lt;/MenuLoad>
+	&lt;LoginURL>http://10.7.148.132:8080/SIGA-MSA-TG/servlet/&lt;/LoginURL>
+	&lt;CRMNro>0&lt;/CRMNro>
+	&lt;CRMMode/>
+&lt;/K2BContext>
+
+gx.dom.setAttribute(&quot;vTXT&quot;,&quot;maxlength&quot;,&quot;999&quot;);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MAINFORM&quot;)/div[@class=&quot;content&quot;]/div[@class=&quot;content-main&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='MAINFORM']/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Salir'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aplicaciones'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COSTA RICA'])[1]/preceding::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preferencias de usuario'])[1]/preceding::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

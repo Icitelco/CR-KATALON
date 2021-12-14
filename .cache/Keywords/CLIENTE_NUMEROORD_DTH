@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "CFADD9710AAC130B4D11E4B2C1A0176B",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_NUMEROORD_DTH",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

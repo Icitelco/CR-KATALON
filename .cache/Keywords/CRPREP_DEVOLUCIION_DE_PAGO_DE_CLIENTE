@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "EF0F3AE331B81462ECECA4B295B6B52B",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_DEVOLUCIION_DE_PAGO_DE_CLIENTE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "Clientenro",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

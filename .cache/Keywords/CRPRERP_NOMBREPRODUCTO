@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "527F66B7772FD0942BADE4F698BA291D",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_NOMBREPRODUCTO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

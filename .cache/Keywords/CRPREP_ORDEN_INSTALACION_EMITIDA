@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0C74F01B8014F5D864CA4934416FF269",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_ORDEN_INSTALACION_EMITIDA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

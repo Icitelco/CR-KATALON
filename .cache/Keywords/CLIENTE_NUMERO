@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "47811EE8312E028590E3737776E66739",
+  "keywordClasses": [
+    {
+      "name": "CLIENTE_NUMERO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

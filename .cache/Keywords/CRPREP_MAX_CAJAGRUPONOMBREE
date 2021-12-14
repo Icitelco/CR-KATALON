@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "8C0B0B9C16627A41D2A556BE475A0F52",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_MAX_CAJAGRUPONOMBREE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

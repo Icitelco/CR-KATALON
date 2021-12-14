@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Recibos</name>
+   <tag></tag>
+   <elementGuidId>9c18b80e-d308-41df-a774-f65141f01953</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;ReciboTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;][count(. | //*[(text() = 'Recibos' or . = 'Recibos')]) = count(//*[(text() = 'Recibos' or . = 'Recibos')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ReciboTab']/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TabText</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recibos</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ReciboTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ReciboTab']/span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

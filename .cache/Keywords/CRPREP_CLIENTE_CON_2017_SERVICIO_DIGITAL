@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "9AA1F681F8925CE51564DED344C76B01",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_CON_2017_SERVICIO_DIGITAL",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

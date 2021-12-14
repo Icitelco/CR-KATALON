@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ARTICULOSERIE</name>
+   <tag></tag>
+   <elementGuidId>63894acf-7159-4bc1-b834-ab6145404d4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'span_vE_ORDENARTSERIE_0001']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='span_vE_ORDENARTSERIE_0001']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>span_vE_ORDENARTSERIE_0001</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id='span_vE_ORDENARTSERIE_0001']</value>
+   </webElementXpaths>
+</WebElementEntity>

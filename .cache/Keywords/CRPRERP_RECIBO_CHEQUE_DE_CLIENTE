@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "79437314BF5672DC81D6992FEBA741FF",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_RECIBO_CHEQUE_DE_CLIENTE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "Clientenro",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

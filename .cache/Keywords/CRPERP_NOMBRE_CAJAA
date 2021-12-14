@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "1CA586AA165641A8838654A285F11212",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_NOMBRE_CAJAA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

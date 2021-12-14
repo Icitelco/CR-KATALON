@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E39F164E78A5C4FDAF42346FE1DA13F9",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_CON_INTERNET_RESIDENCIAL__12MB",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

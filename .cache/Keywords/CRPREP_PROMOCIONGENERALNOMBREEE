@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "F93BA4AABC3F7429550003488DA0946C",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_PROMOCIONGENERALNOMBREEE",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

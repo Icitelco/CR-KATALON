@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "C3CDAB5CE1D8186DE24BF0F300761556",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_INGRESADO_HOME_SIN_PREVENTA",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

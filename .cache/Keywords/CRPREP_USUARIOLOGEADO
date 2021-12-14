@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "E6027EB55BBE9A9315AC8EF188BB818B",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_USUARIOLOGEADO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "UsuarioNombre",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "747F9573AFE8EBEB4A41432D37D3A0C4",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_CLIENTE_CONECTADO_SIN_COMPROBANTES_PARA_AUTORIZARR",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

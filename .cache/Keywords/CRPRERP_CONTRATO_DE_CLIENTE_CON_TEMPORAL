@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "438BFEB391B7B871A0E45E36C75639D8",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_CONTRATO_DE_CLIENTE_CON_TEMPORAL",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "Clientenro",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

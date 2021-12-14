@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "87F5D87BF610396B9B1025209ABAF43E",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_CLIENTE_FACTURAS_IMPAGAS",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "6DB6A14F103826C7A77EAF278CC26131",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_VALORES_CIERRE_CAJAGRUPO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "CAJANRO",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

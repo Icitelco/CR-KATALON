@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BDE65AFBF2B9ED3EDDDDF748792D167C",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_CLIENTE_CON_PLAN_COMERCIAL",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

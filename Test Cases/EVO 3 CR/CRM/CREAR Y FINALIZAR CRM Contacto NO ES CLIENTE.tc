@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CREAR Y FINALIZAR CRM Contacto NO ES CLIENTE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef8b0e18-452e-4ddd-aef7-306902ca6d34</testCaseGuid>
+</TestCaseEntity>

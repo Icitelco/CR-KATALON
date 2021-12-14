@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "3C14B417ECFD686D8376F4F58838E987",
+  "keywordClasses": [
+    {
+      "name": "CRPERP_REVERSAR_ORDENES_POR_AGENDANROO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [
+            {
+              "name": "Agendanro",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

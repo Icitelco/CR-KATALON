@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_RODRII PROMO</name>
+   <tag></tag>
+   <elementGuidId>600ee4ab-b776-4713-bc17-a24e03e4cb42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;span_vE_PROMOCIONNOMBRE_0001&quot;)/a[1][count(. | //*[@ref_element = 'Object Repository/Page_Contrato/iframe_Agregar Promocin en Contrato_gxp0_ifrm']) = count(//*[@ref_element = 'Object Repository/Page_Contrato/iframe_Agregar Promocin en Contrato_gxp0_ifrm'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='span_vE_PROMOCIONNOMBRE_0001']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:gx.evt.execEvt('',false,'EVE_PROMOCIONNOMBRE.CLICK.0001',this,110);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RODRII PROMO</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;span_vE_PROMOCIONNOMBRE_0001&quot;)/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Contrato/iframe_Agregar Promocin en Contrato_gxp0_ifrm</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='span_vE_PROMOCIONNOMBRE_0001']/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+   </webElementXpaths>
+</WebElementEntity>

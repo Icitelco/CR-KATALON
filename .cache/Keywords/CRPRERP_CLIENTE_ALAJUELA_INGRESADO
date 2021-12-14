@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "9442F9D5DBC597E71E879DFE80A96730",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_CLIENTE_ALAJUELA_INGRESADO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

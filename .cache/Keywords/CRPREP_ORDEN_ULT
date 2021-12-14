@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E597E1797758DE93612D79B7D89F30C2",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_ORDEN_ULT",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

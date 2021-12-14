@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "6150B79BDFF2DE004267D3985E549ABC",
+  "keywordClasses": [
+    {
+      "name": "CRPRERP_PROMOCIONID",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
