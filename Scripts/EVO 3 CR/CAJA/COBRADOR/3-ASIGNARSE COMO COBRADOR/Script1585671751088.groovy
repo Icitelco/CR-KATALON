@@ -27,8 +27,6 @@ WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcobrador')
 
 WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 
-WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
-
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cobradores/img_Estado_vDISPLAY_0001'), 20)) {
     WebUI.click(findTestObject('Object Repository/Page_Cobradores/img_Estado_vDISPLAY_0001'))
 } else {
