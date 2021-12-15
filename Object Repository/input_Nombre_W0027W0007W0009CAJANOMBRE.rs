@@ -10,6 +10,10 @@
          <value>//input[@id='W0027W0007W0009CAJANOMBRE']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'W0027W0007W0009CAJANOMBRE' and @name = 'W0027W0007W0009CAJANOMBRE']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#W0027W0007W0009CAJANOMBRE</value>
       </entry>

@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_  _W0027W0007W0009ENTER</name>
+   <name>input_Punto de Venta_W0019W0007W0009PUNTOVTAID</name>
    <tag></tag>
-   <elementGuidId>6335112e-fb28-4170-b530-a47a4c67d636</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='W0027W0007W0009ENTER']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @name = 'W0027W0007W0009ENTER' and @title = 'Confirmar']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;W0027W0007W0009ENTER&quot;]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c3271810-e9c5-431e-9e3c-646582585665</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -32,76 +18,111 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>W0019W0007W0009PUNTOVTAID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0027W0007W0009ENTER</value>
+      <value>W0019W0007W0009PUNTOVTAID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Confirmar</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>size</name>
       <type>Main</type>
-      <value>Confirmar</value>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Button_Standard</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>if( gx.evt.jsEvent(this)) {gx.evt.execEvt('W0027W0007W0009',false,'W0027W0007W0009EENTER.',this);} else return false;</value>
+      <value>Attribute_Trn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onfocus</name>
       <type>Main</type>
-      <value>gx.evt.onfocus(this, 59,'W0027W0007W0009',false,'',0)</value>
+      <value>gx.evt.onfocus(this, 37,'W0019W0007W0009',false,'',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>gx.evt.onchange(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>gx.num.valid_integer( this,'.');;gx.evt.onblur(this,37);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxvalid</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0027W0007W0009ACTIONSCONTAINERBUTTONS&quot;)/tbody[1]/tr[1]/td[@class=&quot;gx-tab-padding-fix-0&quot;]/input[@class=&quot;Button_Standard&quot;]</value>
+      <value>id(&quot;W0019W0007W0009PUNTOVTAID&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='W0027W0007W0009ENTER']</value>
+      <value>//input[@id='W0019W0007W0009PUNTOVTAID']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='W0027W0007W0009ACTIONSCONTAINERBUTTONS']/tbody/tr/td/input</value>
+      <value>//table[@id='W0019W0007W0009TABLE2']/tbody/tr[4]/td[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/table/tbody/tr/td/input</value>
+      <value>//tr[4]/td[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

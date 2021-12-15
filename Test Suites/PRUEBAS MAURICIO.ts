@@ -36,12 +36,6 @@
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/4-ASIGNARSE COMO COBRADOR CUANDO EL USUARIO YA ESTA ASIGNADO</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b4fd4d72-230d-4de0-8ed3-3ad762c05d15</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EVO 3 CR/CAJA/CREAR CAJAS</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fb98679f-2b6d-4c17-9ddb-18c11c4de4a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
