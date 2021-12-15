@@ -14,31 +14,31 @@
    <testCaseLink>
       <guid>560b8fa9-84d3-4755-8923-f3303b725e93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/1-ASIGNARSE COMO COBRADOR SIN NOMBRE</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4eb397d3-2c8e-4a12-b7b9-ad12855e8109</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/2-ASIGNARSE COMO COBRADOR SIN USUARIO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3c3b5ae5-e8a1-40b4-83ef-2804bf6146fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/3-ASIGNARSE COMO COBRADOR</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>80542a91-551c-49b9-bbe0-8de1e168e41a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/4-ASIGNARSE COMO COBRADOR CUANDO EL USUARIO YA ESTA ASIGNADO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fb98679f-2b6d-4c17-9ddb-18c11c4de4a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/CREAR GRUPO DE ATENCION DE CAJAS</testCaseId>
    </testCaseLink>
    <testCaseLink>

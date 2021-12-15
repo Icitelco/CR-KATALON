@@ -15,8 +15,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-import org.apache.commons.lang.RandomStringUtils
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHandling.CONTINUE_ON_FAILURE)
@@ -30,13 +29,21 @@ String NombreCajaGrupo = RandomStringUtils.randomAlphabetic(20)
 
 WebUI.setText(findTestObject('Object Repository/input_Grupo de Caja Nombre_W0027W0007W0009C_c2155b'), NombreCajaGrupo)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/input_Requiere Valores Apertura_W0027W0007W_63a144'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/input_Es oficina de PagoOnLine_W0027W0007W0_8a4f72'))
 
 WebUI.setText(findTestObject('Object Repository/input_Oficina_vCAJAGRUPONOMBRE'), NombreCajaGrupo)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/input_Oficina_SEARCHBUTTON'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/img_Transfiere valores al cierre_vDISPLAY_0001'))
 
@@ -44,11 +51,19 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/span_Cajas'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/input_Cuentas bancarias_W0027W0007INSERT'))
 
-String NombreCaja=CustomKeywords.'CRPERP_NOMBRE_CAJAA.CRPREP_Cliente_Numero'()
+WebUI.delay(5)
+
+String NombreCaja = CustomKeywords.'CRPERP_NOMBRE_CAJAA.CRPREP_Cliente_Numero'()
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/input_Nombre_W0027W0007W0009CAJANOMBRE'), NombreCaja)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/input_  _W0027W0007W0009ENTER'))
 
