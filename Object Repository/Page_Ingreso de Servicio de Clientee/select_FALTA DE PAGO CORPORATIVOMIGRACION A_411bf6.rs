@@ -4,6 +4,12 @@
    <name>select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6</name>
    <tag></tag>
    <elementGuidId>f0498861-2bc7-4f90-a78d-fd03c5b7db78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'vE_MOTIVOORDID' and @name = 'vE_MOTIVOORDID']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -63,7 +69,7 @@
       <value>if(gx.evt.jsEvent(this)) {gx.evt.execEvt('',false,'EVE_MOTIVOORDID.CLICK.',this);} else return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

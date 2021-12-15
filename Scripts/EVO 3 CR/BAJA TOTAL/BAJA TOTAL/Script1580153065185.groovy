@@ -49,6 +49,8 @@ WebUI.delay(5)
 WebUI.selectOptionByValue(findTestObject('Page_Ingreso de Servicio de Clientee/select_NingunoINSTALACION DE AMPLIFICADOR 1_84c31f'), 
     '1', true)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'), 
     '349', true)
 

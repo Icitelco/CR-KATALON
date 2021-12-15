@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PRUEBAS NICOLAS,Firefox 95.0,,,2021-12-14 18:14:54,2021-12-14 18:17:19,"2m - 24,447s",PASSED
+,,,,,,,
+Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO,Firefox 95.0,,,2021-12-14 18:14:55,2021-12-14 18:17:19,"2m - 24,058s",PASSED
+"callTestCase(findTestCase(""EVO 3 CR/LOGIN EVO 3 CR/LOGIN""), [:], CONTINUE_ON_FAILURE)",Firefox 95.0,,,2021-12-14 18:14:55,2021-12-14 18:15:38,"42,804s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:15:38,2021-12-14 18:15:43,"5,004s",PASSED
+"navigateToUrl(""http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente"")",Firefox 95.0,,,2021-12-14 18:15:43,2021-12-14 18:15:45,"1,763s",PASSED
+CLIENTE = CLIENTE_CONECTADO.CRPREP_Cliente_Numero(),Firefox 95.0,,,2021-12-14 18:15:45,2021-12-14 18:15:49,"3,885s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:15:49,2021-12-14 18:15:54,"5,009s",PASSED
+"setText(findTestObject(""Page_Clientes/input_Cliente Nro_vCLIENTENRO""), CLIENTE)",Firefox 95.0,,,2021-12-14 18:15:54,2021-12-14 18:15:54,"0,738s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:15:54,2021-12-14 18:15:59,"5,002s",PASSED
+"click(findTestObject(""Page_Clientes/input_Home Pack_SEARCHBUTTON""))",Firefox 95.0,,,2021-12-14 18:15:59,2021-12-14 18:16:00,"0,525s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:00,2021-12-14 18:16:05,"5,004s",PASSED
+"click(findTestObject(""Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001""))",Firefox 95.0,,,2021-12-14 18:16:05,2021-12-14 18:16:06,"0,501s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:06,2021-12-14 18:16:11,"5,003s",PASSED
+"click(findTestObject(""Object Repository/Page_Cliente/span_Servicios""))",Firefox 95.0,,,2021-12-14 18:16:11,2021-12-14 18:16:11,"0,497s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:11,2021-12-14 18:16:16,"5,003s",PASSED
+"click(findTestObject(""Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO""))",Firefox 95.0,,,2021-12-14 18:16:16,2021-12-14 18:16:17,"0,504s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:17,2021-12-14 18:16:22,"5,005s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f""), ""1"", true)",Firefox 95.0,,,2021-12-14 18:16:22,2021-12-14 18:16:24,"2,271s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:24,2021-12-14 18:16:29,"5,008s",PASSED
+"selectOptionByValue(findTestObject(""Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6""), ""349"", true)",Firefox 95.0,,,2021-12-14 18:16:29,2021-12-14 18:16:31,"1,855s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:31,2021-12-14 18:16:36,"5,002s",PASSED
+"click(findTestObject(""Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR""))",Firefox 95.0,,,2021-12-14 18:16:36,2021-12-14 18:16:38,"2,704s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:38,2021-12-14 18:16:43,"5,003s",PASSED
+"navigateToUrl(""http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente"")",Firefox 95.0,,,2021-12-14 18:16:43,2021-12-14 18:16:44,"0,741s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:44,2021-12-14 18:16:49,"5,025s",PASSED
+"click(findTestObject(""Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001""))",Firefox 95.0,,,2021-12-14 18:16:49,2021-12-14 18:16:50,"0,559s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:50,2021-12-14 18:16:55,"5,002s",PASSED
+"click(findTestObject(""Object Repository/Page_Cliente/span_Servicios""))",Firefox 95.0,,,2021-12-14 18:16:55,2021-12-14 18:16:55,"0,496s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:16:55,2021-12-14 18:17:00,"5,004s",PASSED
+"click(findTestObject(""Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO""))",Firefox 95.0,,,2021-12-14 18:17:00,2021-12-14 18:17:01,"0,500s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:17:01,2021-12-14 18:17:06,"5,002s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f""), ""1"", true)",Firefox 95.0,,,2021-12-14 18:17:06,2021-12-14 18:17:08,"2,141s",PASSED
+delay(5),Firefox 95.0,,,2021-12-14 18:17:08,2021-12-14 18:17:13,"5,001s",PASSED
+"selectOptionByValue(findTestObject(""Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6""), ""349"", true)",Firefox 95.0,,,2021-12-14 18:17:13,2021-12-14 18:17:15,"1,787s",PASSED
+"click(findTestObject(""Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR""))",Firefox 95.0,,,2021-12-14 18:17:15,2021-12-14 18:17:17,"2,828s",PASSED
+takeFullPageScreenshot(),Firefox 95.0,,,2021-12-14 18:17:17,2021-12-14 18:17:19,"1,363s",PASSED

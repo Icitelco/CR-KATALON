@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PRUEBAS NICOLAS" time="144.447" tests="1" failures="0" errors="0">
+   <testsuite name="PRUEBAS NICOLAS" tests="1" failures="0" errors="0" time="144.447" skipped="0" timestamp="2021-12-14 18:14:54" hostname="icikatalon - ICIKATALON-PC" id="Test Suites/PRUEBAS NICOLAS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\icikatalon\\git\\CR-KATALON\\Reports\\20211214_181450\\PRUEBAS NICOLAS\\20211214_181450"/>
+         <property name="logFiles" value="C:\\Users\\icikatalon\\git\\CR-KATALON\\Reports\\20211214_181450\\PRUEBAS NICOLAS\\20211214_181450\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\icikatalon\\git\\CR-KATALON\\Reports\\20211214_181450\\PRUEBAS NICOLAS\\20211214_181450\\1639516637979.png"/>
+         <property name="hostName" value="icikatalon - ICIKATALON-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Firefox 95.0"/>
+         <property name="hostAddress" value="192.168.1.60"/>
+         <property name="sessionId" value="310a08ee-61b0-4b0d-948a-1349924bc824"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO" time="144.058" classname="Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO" status="PASSED">
+         <system-out><![CDATA[2021-12-14 18:14:55 - [TEST_CASE][PASSED] - Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO: Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO
+
+2021-12-14 18:14:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("EVO 3 CR/LOGIN EVO 3 CR/LOGIN"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/EVO 3 CR/LOGIN EVO 3 CR/LOGIN' successfully
+
+2021-12-14 18:14:55 - [TEST_CASE][PASSED] - Test Cases/EVO 3 CR/LOGIN EVO 3 CR/LOGIN: Test Cases/EVO 3 CR/LOGIN EVO 3 CR/LOGIN
+
+2021-12-14 18:14:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 18:14:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-12-14 18:14:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 18:15:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 18:15:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-12-14 18:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-12-14 18:15:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 18:15:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 18:15:08 - [TEST_STEP][PASSED] - navigateToUrl("http://10.7.148.132:8080/SIGA-MSA-TG/servlet/login"): Navigate to 'http://10.7.148.132:8080/SIGA-MSA-TG/servlet/login' successfully
+
+2021-12-14 18:15:16 - [MESSAGE][PASSED] - Navigate to 'http://10.7.148.132:8080/SIGA-MSA-TG/servlet/login' successfully
+
+2021-12-14 18:15:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-12-14 18:15:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-12-14 18:15:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login/input_Nombre de usuario_vUSUARIO"), "FPENSATORI"): Text 'FPENSATORI' is set on object 'Object Repository/Page_Login/input_Nombre de usuario_vUSUARIO'
+
+2021-12-14 18:15:19 - [MESSAGE][PASSED] - Text 'FPENSATORI' is set on object 'Object Repository/Page_Login/input_Nombre de usuario_vUSUARIO'
+
+2021-12-14 18:15:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login/Page_Login/input_Contrasea_vPASSWORD"), "Bg4j4SkluFHVEJBCzhBPhg=="): Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Contrasea_vPASSWORD'
+
+2021-12-14 18:15:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Login/input_Contrasea_vPASSWORD'
+
+2021-12-14 18:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login/input_Olvid mi contrasea_BUTTON1")): Object: 'Object Repository/Page_Login/input_Olvid mi contrasea_BUTTON1' is clicked on
+
+2021-12-14 18:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Olvid mi contrasea_BUTTON1' is clicked on
+
+2021-12-14 18:15:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Elegir Aplicacin/div_Gestin de clientes CATV"), 130): Object 'Object Repository/Page_Elegir Aplicacin/div_Gestin de clientes CATV' is present
+
+2021-12-14 18:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Elegir Aplicacin/div_Gestin de clientes CATV' is present
+
+2021-12-14 18:15:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Elegir Aplicacin/div_Gestin de clientes CATV")): Object: 'Object Repository/Page_Elegir Aplicacin/div_Gestin de clientes CATV' is clicked on
+
+2021-12-14 18:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Elegir Aplicacin/div_Gestin de clientes CATV' is clicked on
+
+2021-12-14 18:15:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Clientes/img_FABIAN CAMARGO_APLICACIONLOGO_MPAGE"), 130): Object 'Object Repository/Page_Clientes/img_FABIAN CAMARGO_APLICACIONLOGO_MPAGE' is present
+
+2021-12-14 18:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Clientes/img_FABIAN CAMARGO_APLICACIONLOGO_MPAGE' is present
+
+2021-12-14 18:15:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/EVO 3 CR/LOGIN EVO 3 CR/LOGIN' successfully
+
+2021-12-14 18:15:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:43 - [TEST_STEP][PASSED] - navigateToUrl("http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente"): Navigate to 'http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente' successfully
+
+2021-12-14 18:15:45 - [MESSAGE][PASSED] - Navigate to 'http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente' successfully
+
+2021-12-14 18:15:45 - [TEST_STEP][PASSED] - CLIENTE = CLIENTE_CONECTADO.CRPREP_Cliente_Numero(): CLIENTE_CONECTADO.CRPREP_Cliente_Numero is PASSED
+
+2021-12-14 18:15:47 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection is PASSED
+
+2021-12-14 18:15:48 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery is PASSED
+
+2021-12-14 18:15:49 - [MESSAGE][PASSED] - com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnection is PASSED
+
+2021-12-14 18:15:49 - [MESSAGE][PASSED] - CLIENTE_CONECTADO.CRPREP_Cliente_Numero is PASSED
+
+2021-12-14 18:15:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Clientes/input_Cliente Nro_vCLIENTENRO"), CLIENTE): Text '12028697' is set on object 'Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'
+
+2021-12-14 18:15:54 - [MESSAGE][PASSED] - Text '12028697' is set on object 'Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'
+
+2021-12-14 18:15:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:15:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Clientes/input_Home Pack_SEARCHBUTTON")): Object: 'Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON' is clicked on
+
+2021-12-14 18:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON' is clicked on
+
+2021-12-14 18:16:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001")): Object: 'Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001' is clicked on
+
+2021-12-14 18:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001' is clicked on
+
+2021-12-14 18:16:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cliente/span_Servicios")): Object: 'Object Repository/Page_Cliente/span_Servicios' is clicked on
+
+2021-12-14 18:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cliente/span_Servicios' is clicked on
+
+2021-12-14 18:16:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO")): Object: 'Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO' is clicked on
+
+2021-12-14 18:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO' is clicked on
+
+2021-12-14 18:16:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'  using regular expression
+
+2021-12-14 18:16:24 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'  using regular expression
+
+2021-12-14 18:16:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6"), "349", true): All options with value '349' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'  using regular expression
+
+2021-12-14 18:16:31 - [MESSAGE][PASSED] - All options with value '349' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'  using regular expression
+
+2021-12-14 18:16:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR")): Object: 'Object Repository/Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR' is clicked on
+
+2021-12-14 18:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR' is clicked on
+
+2021-12-14 18:16:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:43 - [TEST_STEP][PASSED] - navigateToUrl("http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente"): Navigate to 'http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente' successfully
+
+2021-12-14 18:16:44 - [MESSAGE][PASSED] - Navigate to 'http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente' successfully
+
+2021-12-14 18:16:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001")): Object: 'Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001' is clicked on
+
+2021-12-14 18:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001' is clicked on
+
+2021-12-14 18:16:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:16:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cliente/span_Servicios")): Object: 'Object Repository/Page_Cliente/span_Servicios' is clicked on
+
+2021-12-14 18:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cliente/span_Servicios' is clicked on
+
+2021-12-14 18:16:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:17:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:17:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO")): Object: 'Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO' is clicked on
+
+2021-12-14 18:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO' is clicked on
+
+2021-12-14 18:17:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:17:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:17:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f"), "1", true): All options with value '1' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'  using regular expression
+
+2021-12-14 18:17:08 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'  using regular expression
+
+2021-12-14 18:17:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-12-14 18:17:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-12-14 18:17:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6"), "349", true): All options with value '349' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'  using regular expression
+
+2021-12-14 18:17:15 - [MESSAGE][PASSED] - All options with value '349' are selected in object 'Object Repository/Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'  using regular expression
+
+2021-12-14 18:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR")): Object: 'Object Repository/Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR' is clicked on
+
+2021-12-14 18:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR' is clicked on
+
+2021-12-14 18:17:17 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2021-12-14 18:17:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-12-14 18:17:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\icikatalon\\git\\CR-KATALON\\Reports\\20211214_181450\\PRUEBAS NICOLAS\\20211214_181450\\1639516637979.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-14 18:14:54 - [TEST_SUITE][PASSED] - PRUEBAS NICOLAS: Test Cases/EVO 3 CR/BAJA TOTAL/REALIZAR BAJA TOTAL A CLIENTE EN STS INCORRECTO]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

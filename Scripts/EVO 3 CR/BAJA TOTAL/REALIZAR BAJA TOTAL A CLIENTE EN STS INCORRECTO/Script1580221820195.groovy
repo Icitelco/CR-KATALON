@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -35,7 +36,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Servicios'))
 
@@ -63,24 +64,27 @@ WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente')
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Clientes/select_(Ninguno)INGRESADOPENDIENTEEMITIDOCO_7b36c9'), 
-    'E', true)
+WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
-
 WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Servicios'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_ANA BORDALLO ABAD/input_Histricos_W0033W0007AGREGARSERVICIO'))
 
 WebUI.delay(5)
 
-WebUI.selectOptionByValue(findTestObject('Page_Ingreso de Servicio de Clientee/select_NingunoINSTALACION DE AMPLIFICADOR 1_84c31f'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Ingreso de Servicio de Clientee/select_NingunoCOBRO ARTICULOS NO RECUPERABL_6fe62f'), 
     '1', true)
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Page_Ingreso de Servicio de Clientee/select_FALTA DE PAGO CORPORATIVOMIGRACION A_411bf6'), 
     '349', true)
 
 WebUI.click(findTestObject('Page_Ingreso de Servicio de Clientee/input_Codigo Postal_AGREGAR'))
+
+WebUI.takeFullPageScreenshot()
 
