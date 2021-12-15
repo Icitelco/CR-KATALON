@@ -4,6 +4,12 @@
    <name>input_Nombre_W0027W0007W0009CAJANOMBRE</name>
    <tag></tag>
    <elementGuidId>ef9510fe-de9d-41c1-ae72-a300c41dd77e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'W0027W0007W0009CAJANOMBRE' and @name = 'W0027W0007W0009CAJANOMBRE']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

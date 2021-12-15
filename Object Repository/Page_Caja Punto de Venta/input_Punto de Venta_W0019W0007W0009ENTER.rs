@@ -4,6 +4,12 @@
    <name>input_Punto de Venta_W0019W0007W0009ENTER</name>
    <tag></tag>
    <elementGuidId>65384cdc-7725-4c8b-8efd-d5ffb2561b46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0019W0007W0009ENTER' and @title = 'Confirmar']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

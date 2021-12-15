@@ -6,8 +6,12 @@
    <elementGuidId>789d98e5-a839-4cda-8228-727f333204fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#W0027W0007W0009CAJAGRUPOID</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//select[@id='W0024W0008W0007CAJAGRUPOID']</value>
+         <value>//select[@id='W0027W0007W0009CAJAGRUPOID']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -28,14 +32,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>W0024W0008W0007CAJAGRUPOID</value>
+      <value>W0027W0007W0009CAJAGRUPOID</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>W0024W0008W0007CAJAGRUPOID</value>
+      <value>W0027W0007W0009CAJAGRUPOID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>onfocus</name>
       <type>Main</type>
-      <value>gx.evt.onfocus(this, 35,'W0024W0008W0007',false,'',0)</value>
+      <value>gx.evt.onfocus(this, 36,'W0027W0007W0009',false,'',0)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>onblur</name>
       <type>Main</type>
-      <value>gx.num.valid_integer( this,'.');;gx.evt.onblur(35);</value>
+      <value>;gx.evt.onblur(this,36);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,27 +79,83 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>gxvalid</name>
+      <name>data-gxvalid</name>
       <type>Main</type>
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-ALAJUELAALAJUELA DIGITACIONAlajuelaBARRANCABELENBILLINGCALL CENTER SAC ESCARTAGENACARTAGOCAÑASCHACARITACOBROSCOBROS CORPORATIVOCOBROS EL SALVADORCOMUNIDADCONTRATISTASCartagoCartagoCartagoDEVOLUCIONESDIGITACION CALL CENTER SAC ESDIGITACION CARTAGODIGITACION CURRIDABATDIGITACION HEREDIADIGITACION SABANAEL COCOEL ROBLEESPARZAFILADELFIAGECAM COBROSGECAM DTH-CCGRECIAGRUPO PRUEBAGUAPILESHEREDIAHUACASITSLA SABANALIBERIAMIRAMARMORAVIANARANJONICOYAPAGO EN LINEAPAGOS ONLINEPARAISOPARRITAPASEO DE LAS FLORESPAVASPEREZ ZELEDONPUNTARENASQUEPOSRECSASAMARASAN MARCOSSAN PABLOSAN PEDROSAN PEDRO CSAN PEDRO DE POASSAN RAMONSANTA BARBARASANTA CRUZSANTA MARIASARCHISARDINALSIQUIRRESSISTEMCOBROSSTPTAMARINDOTELEMARKETINGTILARANTURRIALBAel roble</value>
+ALAJUELAALAJUELA DIGITACIONAlajuelaBARRANCABELENBILLINGCALL CENTER SAC ESCARTAGENACARTAGOCAÑASCHACARITACOBROSCOBROS CORPORATIVOCOBROS EL SALVADORCOMUNIDADCONTRATISTASCartagoCartagoCartagoDEVOLUCIONESDIGITACION CALL CENTER SAC ESDIGITACION CARTAGODIGITACION CURRIDABATDIGITACION HEREDIADIGITACION SABANAEL COCOEL ROBLEESPARZAFILADELFIAGECAM COBROSGECAM DTH-CCGRECIAGUAPILESHEREDIAHUACASITSLA SABANALIBERIAMIRAMARMORAVIANARANJONICOYAPAGO EN LINEAPAGOS ONLINEPARAISOPARRITAPASEO DE LAS FLORESPAVASPEREZ ZELEDONPUNTARENASQUEPOSRECSASAMARASAN MARCOSSAN PABLOSAN PEDROSAN PEDRO CSAN PEDRO DE POASSAN RAMONSANTA BARBARASANTA CRUZSANTA MARIASARCHISARDINALSIQUIRRESSISTEMCOBROSSTPTAMARINDOTELEMARKETINGTILARANTURRIALBAel roble</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;W0024W0008W0007CAJAGRUPOID&quot;)</value>
+      <value>id(&quot;W0027W0007W0009CAJAGRUPOID&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>gxvalid</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='W0027W0007W0009CAJAGRUPOID']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='W0027W0007W0009TABLE2']/tbody/tr[4]/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grupo de Caja'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nombre no válido'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estado'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Requiere valor apertura'])[1]/preceding::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -107,12 +167,5 @@ ALAJUELAALAJUELA DIGITACIONAlajuelaBARRANCABELENBILLINGCALL CENTER SAC ESCARTAGE
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='W0024W0008W0007TABLE2']/tbody/tr[4]/td[2]/select</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[4]/td[2]/select</value>
    </webElementXpaths>
 </WebElementEntity>

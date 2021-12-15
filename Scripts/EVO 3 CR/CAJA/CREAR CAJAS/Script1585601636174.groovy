@@ -26,13 +26,16 @@ WebUI.delay(5)
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcaja')
 
 'INSERTAR CAJA'
-WebUI.click(findTestObject('Page_Cajas/input_Cajas_INSERT'))
+WebUI.click(findTestObject('Object Repository/Page_Cajas/input_Cajas_INSERT'))
 
 'Nombre Random'
 String NombreCaja = RandomStringUtils.randomAlphabetic(20)
 
 'NOMBRE DE LA CAJA A CREAR'
 WebUI.setText(findTestObject('Object Repository/Page_Caja/input_Nombre_W0027W0007W0009CAJANOMBRE'), NombreCaja)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Caja/select_ALAJUELAALAJUELA DIGITACIONAlajuelaB_c0f9c6'), 
+    '7', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Caja/input_  _W0027W0007W0009ENTER'))
 
@@ -43,9 +46,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Cajas/input_Caja Nombre_vCA
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('BOLIVIA/input_Forma Generada_SEARCHBUTTON'))
+WebUI.click(findTestObject('Object Repository/BOLIVIA/input_Forma Generada_SEARCHBUTTON'))
 
-WebUI.click(findTestObject('Page_Cajas/img_Requiere valor apertura_vDISPLAY_0001'))
+WebUI.click(findTestObject('Object Repository/Page_Cajas/img_Requiere valor apertura_vDISPLAY_0001'))
 
 WebUI.click(findTestObject('Object Repository/Page_Caja/span_Puntos de Venta'))
 

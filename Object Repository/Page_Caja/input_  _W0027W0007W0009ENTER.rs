@@ -4,6 +4,12 @@
    <name>input_  _W0027W0007W0009ENTER</name>
    <tag></tag>
    <elementGuidId>b222c096-5e5f-45e0-9636-ae977015a9b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0027W0007W0009ENTER' and @title = 'Confirmar']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
