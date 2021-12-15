@@ -25,7 +25,7 @@ String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Usuarios de
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcobrador')
 
-WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), 'Santi')
+WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cobradores/img_Estado_vDISPLAY_0001'), 20)) {
     WebUI.click(findTestObject('Object Repository/Page_Cobradores/img_Estado_vDISPLAY_0001'))
@@ -34,25 +34,16 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cobradores
 
     WebUI.delay(4)
 
-    WebUI.delay(5)
-
-    WebUI.setText(findTestObject('Object Repository/Page_Cobrador/input_Cobrador Nombre_W0027W0007W0009COBRAD_728e15'), Nombre)
+    WebUI.setText(findTestObject('Object Repository/Page_Cobrador/input_Cobrador Nombre_W0027W0007W0009COBRAD_728e15'), 
+        Nombre)
 
     WebUI.setText(findTestObject('Object Repository/Page_Cobrador/input_Usuario_W0027W0007W0009USUARIOID'), Nombre)
-	
-	WebUI.delay(5)
-    
-	WebUI.click(findTestObject('Object Repository/Page_Cobrador/input_MARCAUZ_W0027W0007W0009ENTER'))
-	
-	WebUI.setText(findTestObject('Object Repository/Page_Cobrador/input_Usuario_W0027W0007W0009USUARIOID'), Nombre)
-
-    WebUI.delay(5)
 
     WebUI.click(findTestObject('Object Repository/Page_Cobrador/input_MARCAUZ_W0027W0007W0009ENTER'))
 
-    WebUI.delay(5)
+    WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 
->>>>>>> branch 'main' of https://github.com/Icitelco/CR-KATALON.git
+	//PRUEBA
     WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 }
 
