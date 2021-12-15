@@ -2,7 +2,6 @@
 /bin/
 /Libs/
 /.settings/
-.project
+/.project
 /.classpath
 .svn/
-/.com.kms.katalon.composer.testcase.properties
