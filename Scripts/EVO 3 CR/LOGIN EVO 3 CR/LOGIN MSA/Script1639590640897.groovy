@@ -35,4 +35,3 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Login/input_
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Olvid mi contrasea_BUTTON1'))
 
 WebUI.click(findTestObject('Object Repository/Page_Elegir Aplicacin/div_Seguridad de aplicaciones'))
-
