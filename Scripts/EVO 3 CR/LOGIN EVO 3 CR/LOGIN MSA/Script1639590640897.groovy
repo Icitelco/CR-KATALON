@@ -30,18 +30,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Login/input_Nombre de usuar
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Login/Page_Login/input_Contrasea_vPASSWORD'), 'Bg4j4SkluFHVEJBCzhBPhg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Login/input_Contrasea_vPASSWORD'), 'Bg4j4SkluFHVEJBCzhBPhg==')
 
 WebUI.click(findTestObject('Object Repository/Page_Login/input_Olvid mi contrasea_BUTTON1'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Elegir Aplicacin/div_Gestin de clientes CATV'), 130)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_Elegir Aplicacin/div_Gestin de clientes CATV'))
-
-WebUI.delay(5)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Clientes/img_FABIAN CAMARGO_APLICACIONLOGO_MPAGE'), 130)
-
+WebUI.click(findTestObject('Object Repository/Page_Elegir Aplicacin/div_Seguridad de aplicaciones'))
 
