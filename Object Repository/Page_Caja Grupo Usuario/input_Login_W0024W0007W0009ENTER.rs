@@ -6,6 +6,10 @@
    <elementGuidId>8d0dd74c-05bb-4011-b99e-1a78611ec900</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0024W0007W0009ENTER' and @title = 'Confirmar']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='W0024W0007W0009ENTER']</value>
       </entry>

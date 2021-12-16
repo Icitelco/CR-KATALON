@@ -1,3 +1,23 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027vCAJAGRUPOID\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Grupo de Atencin de Cajas/input_Oficina_vCAJAGRUPONOMBRE",
+      "brokenLocator": "//input[@id\u003d\u0027vCAJAGRUPONOMBRE\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//td[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Grupo de Atencin de Cajas/input_Oficina_vCAJAGRUPONOMBRE_position.png"
+    }
+  ]
 }

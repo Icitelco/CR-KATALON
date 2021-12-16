@@ -44,13 +44,13 @@
    <testCaseLink>
       <guid>4bf9636d-ccb1-4be1-9527-e42f410e8829</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/COBRADOR/5-ASIGNAR COBRADOR A CAJA</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf523aa1-1447-4705-999a-a2d19d1ba0d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/CAJA/CARGAR COTIZACION DEL DIA</testCaseId>
    </testCaseLink>
    <testCaseLink>
