@@ -31,6 +31,12 @@ WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcajagrupo')
 
 String CajaGrupo = CustomKeywords.'CRPREP_MAX_CAJAGRUPONOMBREE.CRPREP_Cliente_Numero'()
 
+String hola = "SELECT MAX(CG.CAJAGRUPOID)CAJAID FROM CAJAGRUPOUSUARIO CG WHERE CG.CAJAGRUPOID IN (SELECT CU.CAJAGRUPOID FROM CAJAGRUPO CU WHERE CU.EMPRESAID = CG.EMPRESAID AND CAJAGRUPONOMBRE =".concat(CajaGrupo) + " AND CU.CAJAGRUPOID = CG.CAJAGRUPOID) AND CG.CAJAGRUPOUSUARIOID IN (SELECT CO.USUARIOID FROM COBRADOR CO WHERE CO.EMPRESAID = CG.EMPRESAID AND CO.USUARIOID = CG.CAJAGRUPOUSUARIOID AND COBRADORNOMBRE=".concat(Nombre) + " AND COBRADORSTS = 'A')"
+
+println(hola)
+println(CajaGrupo)
+//println("SELECT MAX(CG.CAJAGRUPOID)CAJAID FROM CAJAGRUPOUSUARIO CG WHERE CG.CAJAGRUPOID IN (SELECT CU.CAJAGRUPOID FROM CAJAGRUPO CU WHERE CU.EMPRESAID = CG.EMPRESAID AND CU.CAJAGRUPOID = CG.CAJAGRUPOID AND CAJAGRUPONOMBRE = AND CG.CAJAGRUPOUSUARIOID IN (SELECT CO.USUARIOID FROM COBRADOR CO WHERE CO.EMPRESAID = CG.EMPRESAID AND CO.USUARIOID = CG.CAJAGRUPOUSUARIOID AND COBRADORSTS = 'A' AND COBRADORNOMBRE=".concat(nombre))
+
 'CAJA GRUPO NOMBRE\r\n'
 WebUI.setText(findTestObject('Object Repository/Page_Grupo de Atencin de Cajas/input_Oficina_vCAJAGRUPONOMBRE'), CajaGrupo)
 
@@ -81,7 +87,23 @@ String UsuarioLGN = CustomKeywords.'CRPREP_USUARIOLOGEADO.CRPREP_Cliente_Numero'
 
 WebUI.setText(findTestObject('Object Repository/Page_ALAJUELA/input_Login_W0027W0007vCAJAGRUPOUSUARIOLGN'), UsuarioLGN)
 
-//Si el usuario no esta asignado, se saltea el if pero da error. Sin embargo se crea el usuario luego.
+String CajaGrupoId = CustomKeywords.'CRPREP_USUARIO_ASIGNADO.CRPREP_Cliente_Numero'(CajaGrupo, Nombre)
+
+'Traemos el id de la cajagrupo, si no trae el numero el usuario no esta asignado a la caja, se va al else y lo asigna.'
+if( CajaGrupoId != null) {
+	println('EXISTE USR')
+}else {
+WebUI.click(findTestObject('Object Repository/Page_ALAJUELA/input_Cuentas bancarias_W0027W0007INSERT'))
+	
+WebUI.setText(findTestObject('Object Repository/Page_Caja Grupo Usuario/input_Usuario_W0024W0007W0009CAJAGRUPOUSUARIOID (1)'),
+		Nombre)
+	
+WebUI.click(findTestObject('Object Repository/Page_Caja Grupo Usuario/input_Login_W0024W0007W0009ENTER'))
+	
+
+}
+//dejo comentado lo que estaba anteriormente. falla
+/*Si el usuario no esta asignado, se saltea el if pero da error. Sin embargo se crea el usuario luego.
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ALAJUELA/img_Login_W0027W0007vDISPLAY_0001'), 10)) {
 	println('EXISTE USR') 
 	} 
@@ -96,6 +118,3 @@ WebUI.click(findTestObject('Object Repository/Page_Caja Grupo Usuario/input_Logi
 /*WebUI.setText(findTestObject('Object Repository/Page_Grupo de Atencin de Cajas/input_Oficina_vCAJAGRUPONOMBRE'), 'hUqzIdMVKDxcTrpLESTQ')
  Lo comentamos porque el usuario ya se agrega a la caja y este paso no seria necesario.
 */
-WebUI.acceptAlert()
-}
-
