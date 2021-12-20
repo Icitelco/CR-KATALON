@@ -34,23 +34,22 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
     'PANTALLA CAJA DIARIAS DE OFICINA\r\n'
     WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcajagrupodia')
 
-	String CajaGrupoID=CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
-	
-	println(CajaGrupoID)
-	
-    WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'),CajaGrupoID, 
+    String CajaGrupoID = CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
+
+    println(CajaGrupoID)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'), CajaGrupoID, 
         true)
 
     WebUI.delay(6)
 
     WebUI.click(findTestObject('Page_Cajas Diarias de Oficina/input_Pgina 1 de 1_CREARCAJASDELDIA'))
 
-    'SELECCIONAMOS LA CAJA'
     //String CantCajas = CustomKeywords.'CRPERP_CANTIDAD_CAJAS_ALAJUELA.CRPREP_Cliente_Numero'()
-
+    'SELECCIONAMOS LA CAJA'
     WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'), 0)
 
-    String dynamicId = "vSEL_0001"
+    String dynamicId = 'vSEL_0001'
 
     println(dynamicId)
 
@@ -100,9 +99,8 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
         'ABRIMOS CAJA'
         WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR'))
 
-        WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Confirma abrir Caja_W0029W0007I_BUTTO_a888a8'))
-    } //WebUI.click(findTestObject('Object Repository/COSTA RICA/input_ACTIVO_vSELECCIONADO_13'))
-    else {
+        WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Confirma abrir Caja_W0029W0007I_BUTTO_a888a8')) //WebUI.click(findTestObject('Object Repository/COSTA RICA/input_ACTIVO_vSELECCIONADO_13'))
+    } else {
         println('Ya esta abierta la caja')
     }
 } else {
@@ -113,19 +111,25 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
     'PANTALLA CAJA DIARIAS DE OFICINA\r\n'
     WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcajagrupodia')
 
-    String CajaGrupoID=CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
-	
-    WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'),CajaGrupoID, 
+    String CajaGrupoID = CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
+
+    WebUI.delay(6)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'), CajaGrupoID, 
         true)
 
     WebUI.delay(6)
 
     WebUI.click(findTestObject('Page_Cajas Diarias de Oficina/input_Pgina 1 de 1_CREARCAJASDELDIA'))
 
+    WebUI.delay(6)
+
     'SELECCIONAMOS LA CAJA'
     String CantCajas = CustomKeywords.'CRPERP_CANTIDAD_CAJAS_ALAJUELA.CRPREP_Cliente_Numero'()
 
-    WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'),1)
+    WebUI.delay(6)
+
+    WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'), 1)
 
     String dynamicId = 'vSEL_000'.concat(CantCajas)
 

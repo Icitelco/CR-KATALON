@@ -31,7 +31,7 @@ public class CRPERP_NOMBRE_CAJAA {
 
 		ResultSet rs;
 
-		String query="SELECT CAJANOMBRE FROM SIGATG.CAJA WHERE CAJANRO IN (SELECT MAX(CAJANRO) FROM SIGATG.CAJA WHERE CAJAGRUPOID=7)"
+		String query="SELECT CAJANOMBRE FROM SIGATG.CAJA WHERE CAJANRO IN (SELECT CAJANRO FROM SIGATG.CAJA WHERE CAJANRO=9 AND CAJAGRUPOID=7)"
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
 
