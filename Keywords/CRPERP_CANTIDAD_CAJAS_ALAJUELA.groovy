@@ -31,7 +31,7 @@ public class CRPERP_CANTIDAD_CAJAS_ALAJUELA {
 
 		ResultSet rs;
 
-		String query="SELECT COUNT (*)CAN FROM SIGATG.CAJA WHERE CAJAGRUPOID=8 and CAJAESTADO='A'"
+		String query="SELECT COUNT (*)CAN FROM SIGATG.CAJA WHERE CAJAGRUPOID=(SELECT MAX(CAJAGRUPOID) FROM SIGATG.CAJA) AND CAJAESTADO='A'"
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
 

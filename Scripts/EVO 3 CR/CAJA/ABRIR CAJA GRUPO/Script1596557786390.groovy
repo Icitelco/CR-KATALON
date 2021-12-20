@@ -36,6 +36,8 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
 
 	String CajaGrupoID=CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
 	
+	println(CajaGrupoID)
+	
     WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'),CajaGrupoID, 
         true)
 
@@ -44,15 +46,15 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
     WebUI.click(findTestObject('Page_Cajas Diarias de Oficina/input_Pgina 1 de 1_CREARCAJASDELDIA'))
 
     'SELECCIONAMOS LA CAJA'
-    String CantCajas = CustomKeywords.'CRPERP_CANTIDAD_CAJAS_ALAJUELA.CRPREP_Cliente_Numero'()
+    //String CantCajas = CustomKeywords.'CRPERP_CANTIDAD_CAJAS_ALAJUELA.CRPREP_Cliente_Numero'()
 
     WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'), 0)
 
-    String dynamicId = 'vSEL_00'.concat(CantCajas)
+    String dynamicId = "vSEL_0001"
 
     println(dynamicId)
 
-    TestObject to = new TestObject('vSEL_0013')
+    TestObject to = new TestObject(dynamicId)
 
     to.addProperty('xpath', ConditionType.EQUALS, 'id('.concat('\'').concat(dynamicId).concat('\'').concat(')'))
 
@@ -123,13 +125,13 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
     'SELECCIONAMOS LA CAJA'
     String CantCajas = CustomKeywords.'CRPERP_CANTIDAD_CAJAS_ALAJUELA.CRPREP_Cliente_Numero'()
 
-    WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'), 0)
+    WebUI.switchToFrame(findTestObject('Object Repository/Page_Agendas/iframe_Crear Agenda_gxp0_ifrm'),1)
 
-    String dynamicId = 'vSEL_00'.concat(CantCajas)
+    String dynamicId = 'vSEL_000'.concat(CantCajas)
 
     println(dynamicId)
 
-    TestObject to = new TestObject('vSEL_0013')
+    TestObject to = new TestObject(dynamicId)
 
     to.addProperty('xpath', ConditionType.EQUALS, 'id('.concat('\'').concat(dynamicId).concat('\'').concat(')'))
 

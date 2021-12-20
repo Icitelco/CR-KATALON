@@ -100,7 +100,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Caja Grupo Usuario/input_Us
 	
 WebUI.click(findTestObject('Object Repository/Page_Caja Grupo Usuario/input_Login_W0024W0007W0009ENTER'))
 	
-
 }
 //dejo comentado lo que estaba anteriormente. falla
 /*Si el usuario no esta asignado, se saltea el if pero da error. Sin embargo se crea el usuario luego.
