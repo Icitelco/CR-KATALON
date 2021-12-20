@@ -161,9 +161,16 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
             formattedDate)
 
         WebUI.delay(5)
-
+		
+		WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Cierre_vABRIR_0001'))
+		
+		WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Confirma abrir Caja_I_BUTTONCONFIRMYES'))
+		
+		WebUI.selectOptionByValue(findTestObject('Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA'),
+			'A', true)
+		/*
         'INGRESAMOS VALORES DE APERTURA'
-        WebUI.click(findTestObject('Page_Cajas Diarias de Oficina/a_Valores'))
+       
 
         WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Depsitos_W0029W0007INSERT'))
 
@@ -179,11 +186,16 @@ if (CustomKeywords.'CRPREP_VERIFICAR_EXISTE_COTIZACION.CRPREP_Cliente_Numero'(fo
 
         WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR'), 
             0)
-
+		
+		
         'ABRIMOS CAJA'
+		
+		WebUI.click(findTestObject('Page_Cajas Diarias de Oficina/a_Valores'))
+		
         WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR'))
 
         WebUI.click(findTestObject('Object Repository/Page_Caja Diaria de Oficina/input_Confirma abrir Caja_W0029W0007I_BUTTO_a888a8'))
+        */
     } else {
         println('Ya esta abierta la caja')
     }

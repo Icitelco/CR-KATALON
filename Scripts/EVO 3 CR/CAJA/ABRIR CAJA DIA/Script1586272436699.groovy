@@ -27,15 +27,15 @@ formattedDate = mydate.format('dd/MM/YYYY')
 'PANTALLA CAJA DIA'
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcajadia')
 
-String CajaGrupoID=CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
+String CajaGrupoID = CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
 
+'SELECCIONAMOS LA CAJA GRUPO'
 WebUI.selectOptionByValue(findTestObject('Object Repository/select_ALAJUELACALL CENTER SAC ESDIGITACION_e3fa0d'),CajaGrupoID,
 	true)
 
 WebUI.delay(6)
 
-
-String CajaNombre=CustomKeywords.'CRPERP_NOMBRE_CAJAA.CRPREP_Cliente_Numero'()
+String CajaNombre = CustomKeywords.'CRPERP_NOMBRE_CAJAA.CRPREP_Cliente_Numero'()
 
 'NOMBRE CAJA'
 WebUI.setText(findTestObject('Page_Cajas Diarias/input_Caja_vCAJANOMBRE'), CajaNombre)

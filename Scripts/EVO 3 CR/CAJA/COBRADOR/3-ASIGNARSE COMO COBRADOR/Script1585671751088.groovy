@@ -23,6 +23,8 @@ WebUI.delay(5)
 
 String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Usuarios de Flujo/span_MAURICIO ARCAUZ'))
 
+println(Nombre)
+
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcobrador')
 
 WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
@@ -44,6 +46,6 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cobradores
     WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 
 	//PRUEBA
-    WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
+    //WebUI.setText(findTestObject('Page_Cobradores/input_Cobrador Nombre_vCOBRADORNOMBRE'), Nombre)
 }
 

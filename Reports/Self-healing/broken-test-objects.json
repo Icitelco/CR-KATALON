@@ -18,6 +18,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Grupo de Atencin de Cajas/input_Oficina_vCAJAGRUPONOMBRE_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Caja Grupo Dia Valor/select_AJUSTE CONVENIO AVALAJUSTE TARJETACH_f835a2",
+      "brokenLocator": "//*[@id \u003d \u0027W0024W0007W0009CPGOTIPOID\u0027 and @name \u003d \u0027W0024W0007W0009CPGOTIPOID\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tipo de Pago\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Caja Grupo Dia Valor/select_AJUSTE CONVENIO AVALAJUSTE TARJETACH_f835a2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[7]/table/tbody/tr/td/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR_position.png"
     }
   ]
 }

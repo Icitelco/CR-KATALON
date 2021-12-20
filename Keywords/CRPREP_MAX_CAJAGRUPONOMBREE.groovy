@@ -31,7 +31,7 @@ public class CRPREP_MAX_CAJAGRUPONOMBREE {
 
 		ResultSet rs;
 
-		String query="SELECT CAJAGRUPONOMBRE FROM SIGATG.CAJAGRUPO WHERE CAJAGRUPOID IN (SELECT MAX(CAJAGRUPOID) FROM SIGATG.CAJAGRUPO)"
+		String query="SELECT CAJAGRUPONOMBRE FROM SIGATG.CAJAGRUPO WHERE CAJAGRUPOID = 7"
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
 

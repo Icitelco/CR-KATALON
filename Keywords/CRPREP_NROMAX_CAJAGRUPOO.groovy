@@ -31,7 +31,7 @@ public class CRPREP_NROMAX_CAJAGRUPOO {
 
 		ResultSet rs;
 
-		String query="SELECT MAX(CAJAGRUPOID) FROM SIGATG.CAJAGRUPO"
+		String query="SELECT CAJAGRUPOID FROM CAJAGRUPO WHERE CAJAGRUPOID = 7"
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
 
