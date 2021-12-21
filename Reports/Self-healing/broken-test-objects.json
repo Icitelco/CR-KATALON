@@ -37,6 +37,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Caja Diaria de Oficina/input_Pgina 1 de 1_W0029W0007ABRIR_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA",
+      "brokenLocator": "//*[@id \u003d \u0027vCAJAGRUPOSTS\u0027 and @name \u003d \u0027vCAJAGRUPOSTS\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Status\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA_neighbor.png"
     }
   ]
 }

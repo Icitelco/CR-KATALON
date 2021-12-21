@@ -54,10 +54,21 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cajas Diarias/s
 
 WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias/input_Status_SEARCHBUTTON'))
 
+/*
 'INGRESAR VALORES DE APERTURA'
 WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias/a_Valores'))
+*/
 
 'ABRIR CAJA DIA'
+WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Cierre_vABRIR_0001'))
+
+WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Confirma abrir Caja_I_BUTTONCONFIRMYES'))
+
+WebUI.selectOptionByValue(findTestObject('Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA'),
+	'A', true)
+
+/*
 WebUI.click(findTestObject('Object Repository/Page_Caja Diaria/input_Pgina 1 de 1_W0027W0007ABRIRCAJA'))
 
 WebUI.click(findTestObject('Object Repository/Page_Caja Diaria/input_Confirma ABRIR Caja_W0027W0007I_BUTTO_12495e'))
+*/

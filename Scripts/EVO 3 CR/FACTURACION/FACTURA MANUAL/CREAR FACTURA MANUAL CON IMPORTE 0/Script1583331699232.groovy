@@ -35,6 +35,10 @@ if (ClienteNro == null) {
 
     WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/FACTURA MANUAL/CREAR FACTURA MANUAL CON IMPORTE 0'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 } else {
+	
+	//Verificamos que el cliente tenga los check de autorizar, aplicar y anular documentos.
+	CustomKeywords.'CRPREP_NIVEL_AUTORIZADO.CRPREP_Cliente_Numero'()
+	
     WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
 
     WebUI.delay(5)

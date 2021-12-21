@@ -69,4 +69,7 @@ WebUI.click(findTestObject('Page_Caja Diaria/input_Pgina 1 de 1_W0027W0007ABRIRC
 
 WebUI.click(findTestObject('Page_Caja Diaria/input_Confirma ABRIR Caja_W0027W0007I_BUTTO_12495e'))
 
+WebUI.selectOptionByValue(findTestObject('Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA'),
+	'A', true)
+
 
