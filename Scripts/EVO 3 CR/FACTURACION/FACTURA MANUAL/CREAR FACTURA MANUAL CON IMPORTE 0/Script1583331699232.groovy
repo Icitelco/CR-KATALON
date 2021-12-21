@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -26,36 +27,53 @@ WebUI.delay(5)
 String ClienteNro = CustomKeywords.'CLIENTE_CONECTADO.CRPREP_Cliente_Numero'()
 
 if (ClienteNro == null) {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 
-	WebUI.callTestCase(findTestCase('EVO 3 CR/CONTRATOS/CONTRATO CLIENTE HOME'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('EVO 3 CR/CONTRATOS/CONTRATO CLIENTE HOME'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 
-	WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/FACTURA MANUAL/CREAR FACTURA MANUAL CON IMPORTE 0'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} 
+    WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/FACTURA MANUAL/CREAR FACTURA MANUAL CON IMPORTE 0'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+    WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
 
-	else {
+    WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
+    WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
+    WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
+    WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
-    '112', true)
+    WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Documento/input_Cobrador_W0026W0007W0020COBRADORID'), '1')
+    WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
 
-WebUI.click(findTestObject('Object Repository/Page_Documento/img_Exonerado_W0026W0007W0020PROMPT_672_0001'))
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Documento/a_SERVICIO TV CABLE'))
+    WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
+        '112', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026W0007W0020ENTER'))
+    WebUI.delay(5)
 
+    WebUI.setText(findTestObject('Object Repository/Page_Documento/input_Cobrador_W0026W0007W0020COBRADORID'), '1')
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Documento/img_Exonerado_W0026W0007W0020PROMPT_672_0001'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Documento/a_SERVICIO TV CABLE'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026W0007W0020ENTER'))
+
+    WebUI.takeFullPageScreenshot()
 }
+

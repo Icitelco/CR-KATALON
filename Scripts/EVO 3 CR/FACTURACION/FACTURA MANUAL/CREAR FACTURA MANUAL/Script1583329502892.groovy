@@ -37,35 +37,63 @@ if (ClienteNro == null) {
 } else {
     WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
+
+    WebUI.delay(5)
 
     'PESTAÑA DOCUMENTOS'
     WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
 
+    WebUI.delay(5)
+
     'INSERTAMOS FACTURA MANUAL'
     WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
 
-    WebUI.delay(10)
+    WebUI.delay(5)
 
     'METODO DE PAGO'
     WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
         '112', true)
 
+    WebUI.delay(5)
+
     'COBRADORID'
     WebUI.setText(findTestObject('Object Repository/Page_Documento/input_Cobrador_W0026W0007W0020COBRADORID'), '1')
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Documento/img_Exonerado_W0026W0007W0020PROMPT_672_0001'))
+
+    WebUI.delay(5)
 
     'CONCEPTO DE FACTURA'
     WebUI.click(findTestObject('Object Repository/Page_Documento/a_SERVICIO TV CABLE'))
+
+    WebUI.delay(5)
 
     'IMPORTE'
     WebUI.setText(findTestObject('Object Repository/Page_Documento/input_SERVICIO TV CABLE_W0026W0007W0020FACT_2acffc'), 
         '1000')
 
+    WebUI.delay(5)
+
     'GENERAR FACTURA'
     WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026W0007W0020ENTER'))
+
+    mydate = new Date()
+
+    formattedDate = mydate.format('dd/MM/YYYY')
+
+    WebUI.setText(findTestObject('Object Repository/input_Desde Fecha_W0033W0007vFROMFACTURAFCH'), formattedDate)
+
+    WebUI.setText(findTestObject('Object Repository/input_Hasta Fecha_W0033W0007vTOFACTURAFCH'), formattedDate)
+
+    WebUI.takeFullPageScreenshot()
 }
 

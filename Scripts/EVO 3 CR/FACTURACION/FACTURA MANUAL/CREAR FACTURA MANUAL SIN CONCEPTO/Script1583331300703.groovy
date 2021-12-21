@@ -26,34 +26,52 @@ WebUI.delay(5)
 String ClienteNro = CustomKeywords.'CLIENTE_CONECTADO.CRPREP_Cliente_Numero'()
 
 if (ClienteNro == null) {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 
-	WebUI.callTestCase(findTestCase('EVO 3 CR/CONTRATOS/CONTRATO CLIENTE HOME'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('EVO 3 CR/CONTRATOS/CONTRATO CLIENTE HOME'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 
-	WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/FACTURA MANUAL/CREAR FACTURA MANUAL SIN CONCEPTO'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} 
+    WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/FACTURA MANUAL/CREAR FACTURA MANUAL SIN CONCEPTO'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else {
+    WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
 
-	else {
+    WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), ClienteNro)
+    WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
+    WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
+    WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
-    '112', true)
+    WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Documento/input_Cobrador_W0026W0007W0020COBRADORID'), '1')
+    WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Documento/input_SERVICIO TV CABLE_W0026W0007W0020FACT_2acffc'), '1000')
+    WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026W0007W0020ENTER'))
+    WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
+        '112', true)
 
-	}
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Documento/input_Cobrador_W0026W0007W0020COBRADORID'), '1')
+
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Documento/input_SERVICIO TV CABLE_W0026W0007W0020FACT_2acffc'), 
+        '1000')
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026W0007W0020ENTER'))
+
+    WebUI.delay(5)
+
+    WebUI.takeFullPageScreenshot()
+}
+
