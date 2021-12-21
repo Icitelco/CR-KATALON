@@ -45,4 +45,27 @@ public class CRPRERP_FORMULARIO_WRFLW {
 
 		return prueba;
 	}
+	@Keyword
+	def CRPREP_Existe_Usuario(String nombre){
+		Connection connection= null;
+		connection = CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection'(com.katalon.plugin.keyword.connection.DBType.oracle,
+				'10.45.160.30', '1521', 'SIGAPREP','SIGATG', 'U0lHQVRH')
+		connection.setAutoCommit(false)
+
+		ResultSet rs;
+
+		String query="SELECT FLUSR FROM SIGATG.FLUSR WHERE FLUSRNOMBRE =".concat("'").concat(nombre).concat("'")
+
+		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
+
+		String prueba;
+
+		while (rs.next()) {
+			println(rs.getString(1));
+			prueba=rs.getString(1);
+		}
+		CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnection'(connection)
+
+		return prueba;
+	}
 }

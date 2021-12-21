@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "F1B29BB8B9793623103B24326025E465",
+  "keywordFileContentHash": "9B225F3FD7B9DF8126C29ECE5D9BF9C1",
   "keywordClasses": [
     {
       "name": "CRPRERP_FORMULARIO_WRFLW",
@@ -7,6 +7,25 @@
         {
           "name": "CRPREP_Cliente_Numero",
           "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "CRPREP_Existe_Usuario",
+          "parameters": [
+            {
+              "name": "nombre",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
           "javadoc": ""
         }
       ]
