@@ -6,11 +6,19 @@
    <elementGuidId>cbf8f30e-b903-4edb-9732-54645b3a54b3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#vABRIR_0001</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'image' and @src = '/SIGA-TG/static/Resources/sPelotaVerde.png' and @name = 'vABRIR_0001' and @id = 'vABRIR_0001' and @alt = 'Abrir Caja' and @title = 'Abrir Caja']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='vABRIR_0001']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,16 +93,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>gxvalid</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>0</value>
+      <value>id(&quot;vABRIR_0001&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>gxvalid</name>
       <type>Main</type>
-      <value>id(&quot;vABRIR_0001&quot;)</value>
+      <value>0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

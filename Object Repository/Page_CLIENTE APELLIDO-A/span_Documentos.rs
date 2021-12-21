@@ -10,12 +10,12 @@
          <value>#FacturaTab > span.TabRight > span.TabBackground > span.TabText</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;FacturaTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='FacturaTab']/span/span/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;FacturaTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

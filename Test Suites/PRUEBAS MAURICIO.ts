@@ -66,12 +66,6 @@
       <testCaseId>Test Cases/EVO 3 CR/CAJA/ABRIR CAJA DIA SIN VALORES DE APERTURA</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>36db2d02-0866-444a-a626-058a48431387</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/EVO 3 CR/CAJA/ABRIR CAJA DIA</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ddc983ac-0a8f-4e4c-9be7-6722c5289889</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
@@ -104,7 +98,7 @@
    <testCaseLink>
       <guid>c7cd5607-ed08-47e5-aede-156c6c6c1bf2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/FACTURACION/RECIBOS/CREAR RECIBO</testCaseId>
    </testCaseLink>
    <testCaseLink>

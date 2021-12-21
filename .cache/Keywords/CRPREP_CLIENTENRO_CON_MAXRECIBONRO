@@ -1,16 +1,15 @@
 {
-  "keywordFileContentHash": "89B6B06EE8B43CE7D3B4068D2A6126B1",
+  "keywordFileContentHash": "FF7B8866E566C682E8B60E53C11DEF6A",
   "keywordClasses": [
     {
       "name": "CRPREP_CLIENTENRO_CON_MAXRECIBONRO",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

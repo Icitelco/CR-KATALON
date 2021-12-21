@@ -4,7 +4,17 @@
    <name>input_Confirma abrir Caja_I_BUTTONCONFIRMYES</name>
    <tag></tag>
    <elementGuidId>56e493f4-67aa-4fb1-ba2b-0cdcf47878c1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;I_BUTTONCONFIRMYES&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='I_BUTTONCONFIRMYES']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,6 +92,13 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CONDITIONALCONFIRMBUTTONS']/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/table/tbody/tr/td/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
