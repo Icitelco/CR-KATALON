@@ -10,12 +10,12 @@
          <value>#W0033W0007vRECIBONRO</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='W0033W0007vRECIBONRO']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @id = 'W0033W0007vRECIBONRO' and @name = 'W0033W0007vRECIBONRO']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='W0033W0007vRECIBONRO']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

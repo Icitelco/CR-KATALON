@@ -34,6 +34,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Autorizacin de Comprobantes
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/select_(Ninguno)COMPROBANTECARGODEVOLUCION'), 
     'F', true)
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/select_(Ninguno)PENDIENTEAUTORIZADAAPLICADAANULADA'), 
     'P', true)
 
@@ -45,16 +47,28 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/input_Aplicado_vAUTORIZAR_0001'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/input__CONFIRMAR'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/button_Aceptar'))
+
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/select_(Ninguno)PENDIENTEAUTORIZADAAPLICADAANULADA'), 
     'A', true)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/input_Aplicado_vAPLICAR_0001'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/input__CONFIRMAR'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/button_Aceptar'))
 

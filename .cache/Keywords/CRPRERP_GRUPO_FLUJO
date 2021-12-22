@@ -1,15 +1,16 @@
 {
-  "keywordFileContentHash": "6F84F4A09DE0FA403AE96E4C244E409E",
+  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
   "keywordClasses": [
     {
       "name": "CRPRERP_GRUPO_FLUJO",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

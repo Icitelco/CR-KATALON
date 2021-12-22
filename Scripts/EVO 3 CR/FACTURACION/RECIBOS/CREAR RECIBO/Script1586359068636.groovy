@@ -29,11 +29,11 @@ String Clientenro = CustomKeywords.'CRPERP_CLIENTE_FACTURAS_IMPAGAS.CRPREP_Clien
 'NUMERO DE CLIENTE'
 WebUI.setText(findTestObject('Object Repository/Page_Clientes/input_Cliente Nro_vCLIENTENRO'), Clientenro)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEARCHBUTTON'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
@@ -42,7 +42,7 @@ WebUI.delay(5)
 'PESTAÑA DOCUMENTOS'
 WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 //url = WebUI.getUrl()
 'AGREGAMOS UN RECIBO\r\n'
@@ -53,20 +53,22 @@ WebUI.delay(10)
 'AGREGAR COMPOSICION DE PAGO'
 WebUI.click(findTestObject('Object Repository/Page_Ingresar Recibo de Pago - CC/input_Composicin del Pago_NUEVOTIPODEPAGO'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'CREAMOS EL RECIBO'
 WebUI.click(findTestObject('Object Repository/Page_Ingresar Recibo de Pago - CC/input_Cantidad de Facturas_GENERARRECIBO'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Ingresar Recibo de Pago - CC/button_Aceptar'))
 
-WebUI.delay(15)
+WebUI.delay(8)
 
 WebUI.click(findTestObject('Object Repository/Page_Ingresar Recibo de Pago - CC/input_Confirmar impresin de recibo_CONFIRMAR'))
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/entitymanagercliente?Na6+jafnwZO8SIBdTgNiDb4wGsFJfME2NgzZUWMHfXKS4cDQz_f_uCKg2FGTcRAhWR0T5pAf2CA5ChwjpZ_swQ==')
+
+WebUI.delay(5)
 
 //WebUI.click(findTestObject('Object Repository/Page_Ingresar Recibo de Pago - CC/input_Confirmar impresin de recibo_CONFIRMAR'))
 'PESTAÑA RECIBOS'
