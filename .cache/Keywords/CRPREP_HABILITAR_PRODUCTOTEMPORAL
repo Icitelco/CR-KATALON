@@ -1,19 +1,14 @@
 {
-  "keywordFileContentHash": "E9E0321FB876B313C9BF0D281859A879",
+  "keywordFileContentHash": "0586CA2B6979F54CC42E0FBB4642B18D",
   "keywordClasses": [
     {
-      "name": "CRPRERP_FORMULARIO_WRFLW",
+      "name": "CRPREP_HABILITAR_PRODUCTOTEMPORAL",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CRPREP_Existe_Usuario",
           "parameters": [
             {
-              "name": "nombre",
+              "name": "Temp",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

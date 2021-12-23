@@ -1,19 +1,14 @@
 {
-  "keywordFileContentHash": "E9E0321FB876B313C9BF0D281859A879",
+  "keywordFileContentHash": "A3AAAD18C5F40497DDDC8051F98BDFB8",
   "keywordClasses": [
     {
-      "name": "CRPRERP_FORMULARIO_WRFLW",
+      "name": "CRPERP_ACTUALIZAR_ORDENES_POR_AGENDANRO_A_AGENDADA",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CRPREP_Existe_Usuario",
           "parameters": [
             {
-              "name": "nombre",
+              "name": "Agendanro",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

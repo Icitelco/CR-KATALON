@@ -1,19 +1,14 @@
 {
-  "keywordFileContentHash": "E9E0321FB876B313C9BF0D281859A879",
+  "keywordFileContentHash": "67B247A057F2419EA82D64262A92DFDD",
   "keywordClasses": [
     {
-      "name": "CRPRERP_FORMULARIO_WRFLW",
+      "name": "CRPREP_CONTRATO_DE_CLIENTE_PLAN_COMERCIAL",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CRPREP_Existe_Usuario",
           "parameters": [
             {
-              "name": "nombre",
+              "name": "Clientenro",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

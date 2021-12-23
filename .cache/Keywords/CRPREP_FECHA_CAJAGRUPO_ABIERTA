@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "A455BE494E637B40E7F5D504EC93CA00",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_FECHA_CAJAGRUPO_ABIERTA",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

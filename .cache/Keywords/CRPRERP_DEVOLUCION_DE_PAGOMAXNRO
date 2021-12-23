@@ -1,19 +1,14 @@
 {
-  "keywordFileContentHash": "E9E0321FB876B313C9BF0D281859A879",
+  "keywordFileContentHash": "146A5B3C6917A8C8D7F9984D62829DB2",
   "keywordClasses": [
     {
-      "name": "CRPRERP_FORMULARIO_WRFLW",
+      "name": "CRPRERP_DEVOLUCION_DE_PAGOMAXNRO",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CRPREP_Existe_Usuario",
           "parameters": [
             {
-              "name": "nombre",
+              "name": "Clientenro",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

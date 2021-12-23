@@ -1,19 +1,14 @@
 {
-  "keywordFileContentHash": "E9E0321FB876B313C9BF0D281859A879",
+  "keywordFileContentHash": "B0FE5C173C9CB747F1FD4D630D0E78D6",
   "keywordClasses": [
     {
-      "name": "CRPRERP_FORMULARIO_WRFLW",
+      "name": "CRPREP_ELIMINAR_COBRADOR_Y_CAJA",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CRPREP_Existe_Usuario",
           "parameters": [
             {
-              "name": "nombre",
+              "name": "CobradorID",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

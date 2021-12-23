@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "BE119A6BFE65399672043E9AB237A70A",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_TECNICO_EN_CENTRO_DE_STOCK",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "E4B1C7E5C6879EB5520B4C7E93CD0152",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CLIENTE_STS_PENDIENTE",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

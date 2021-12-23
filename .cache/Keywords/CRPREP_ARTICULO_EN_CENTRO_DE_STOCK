@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "4F29A2F891EB2E4015F6AD76635D9D88",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_ARTICULO_EN_CENTRO_DE_STOCK",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

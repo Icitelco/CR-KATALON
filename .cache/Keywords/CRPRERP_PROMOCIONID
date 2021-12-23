@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "6150B79BDFF2DE004267D3985E549ABC",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPRERP_PROMOCIONID",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

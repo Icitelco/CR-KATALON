@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "98A1AAB7E65C09524ABC64D5963104FA",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_PRODUCTO_NOMBRE_ACEPTA_ADICIONAL",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

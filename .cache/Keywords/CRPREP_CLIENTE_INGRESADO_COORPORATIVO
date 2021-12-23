@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "4D6D88E9779727A5C2E64D396C1AC7EF",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_CLIENTE_INGRESADO_COORPORATIVO",
       "keywordMethods": [
         {
           "name": "CRPREP_Cliente_Numero",

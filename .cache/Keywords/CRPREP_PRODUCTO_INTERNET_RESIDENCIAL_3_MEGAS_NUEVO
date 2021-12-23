@@ -1,11 +1,11 @@
 {
-  "keywordFileContentHash": "23BF29C6697FFE1E90D5C268B3EA2CDD",
+  "keywordFileContentHash": "1CD6EF0DEA17C30D5A8813EF94C386D3",
   "keywordClasses": [
     {
-      "name": "CRPRERP_GRUPO_FLUJO",
+      "name": "CRPREP_PRODUCTO_INTERNET_RESIDENCIAL_3_MEGAS_NUEVO",
       "keywordMethods": [
         {
-          "name": "CRPREP_Cliente_Numero",
+          "name": "CRPREP_Producto_ID",
           "parameters": [],
           "javadoc": ""
         }
