@@ -31,7 +31,7 @@ public class CRPREP_MAXNRO_MOVSTOCK {
 
 		ResultSet rs;
 
-		String query="SELECT MAX(MOVSTOCKNRO)FROM SIGATG.MOVSTOCK"
+		String query="SELECT MAX(MOVSTOCKNRO)FROM SIGATG.MOVSTOCK WHERE EMPRESAID=10 AND MOVSTOCKFCH=TO_DATE(SYSDATE)"
 
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)

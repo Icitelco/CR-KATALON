@@ -21,66 +21,157 @@ WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHa
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcentrostock')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Page_Centros de Stock/input_Nombre_vCENTROSTKNOMBRE'), 'BODEGA TIGO')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Centros de Stock/input_Acepta retiros_SEARCHBUTTON'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Centros de Stock/img_Acepta Retiros de Tecnicos_vDISPLAY_0001'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/span_Tcnicos'))
 
-//NOMBRE TECNICO
-String NombreTec = CustomKeywords.'CRPREP_NOMBRE_MAXTECNICOO.CRPREP_Cliente_Numero'()
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Tecnico_W0027W0007vTECNICONOMBRE'), NombreTec)
+//NOMBRE TECNICO
+//String NombreTec = CustomKeywords.'CRPREP_NOMBRE_MAXTECNICOO.CRPREP_Cliente_Numero'()
+WebUI.click(findTestObject('Object Repository/Page_SIGA Software/svg_FERNANDO PENSATORI_feather feather-menu'))
+
+WebUI.delay(5)
+
+String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Grupo de Atencin de Cajas/span_FERNANDO PENSATORI'))
+
+WebUI.delay(5)
+
+println(Nombre)
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Tecnico_W0027W0007vTECNICONOMBRE'), Nombre)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Tecnico_W0027W0007SEARCHBUTTON'))
+
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
 
 //EXISTE TECNICO EN CENTRO DE STOCK
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/img_Tecnico_W0027W0007vDISPLAY_0001'), 
     10)) {
-    println('Tecico Asociado') //NUMERO TECNICO
+    WebUI.delay(5)
+
+    println('Tecico Asociado' //NUMERO TECNICO
+        )
+
+    WebUI.takeFullPageScreenshot()
 } else {
     WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Histricos Centro Stock_W0027W0007INSERT'))
 
-    String TecnicoNro = CustomKeywords.'CRPRERP_MAXNRO_TECNICO.CRPREP_Cliente_Numero'()
+    WebUI.delay(5)
+
+    String TecnicoNro = CustomKeywords.'CRPREP_TECNICOID.CRPREP_Cliente_Numero'(Nombre)
+
+    WebUI.delay(5)
 
     WebUI.setText(findTestObject('Object Repository/Page_Centro Stock Tecnico/input_Tcnico_W0019W0007W0009TECNICOID'), TecnicoNro)
+
+    WebUI.delay(5)
 
     WebUI.click(findTestObject('Object Repository/Page_Centro Stock Tecnico/input_Nombre_W0019W0007W0009ENTER'))
 }
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/span_Usuarios'))
 
-//NOMBRE DE USUARIO LOGEADO
-String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Usuarios de Flujo/span_MAURICIO ARCAUZ'))
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Centro Stk Usuario_W0027W0007vCENTROS_efff21'), 
     Nombre)
 
-WebUI.delay(10)
+WebUI.delay(5)
+
+WebUI.takeFullPageScreenshot()
 
 //SI EXISTE USUARIO EN CENTRO DE STOCK
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_BODEGA TIGO/img_Procesar_W0027W0007vDISPLAY_0001'), 
     10)) {
     println('Existe Usuario')
+
+    WebUI.delay(5)
+
+    WebUI.takeFullPageScreenshot()
 } else {
     WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Histricos Centro Stock_W0027W0007INSERT (1)'))
+
+    WebUI.delay(5)
 
     WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Centro Stock Usuario/select_ALMACEN DESECHO TIGOALMACEN WODENART_7657fe (1)'), 
         '1', true)
 
+    WebUI.delay(5)
+
     WebUI.setText(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Usuario_W0024W0007W0009CENTROSTKUSUARIOID'), 
         Nombre)
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Ingreso_W0024W0007W0009CENTROSTKUSUINGRESAR'))
+
+    WebUI.delay(5)
 
     WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Autorizar_W0024W0007W0009CENTROSTKUSU_523f33'))
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Procesar_W0024W0007W0009CENTROSTKUSUPROCESAR'))
 
+    WebUI.delay(5)
+
     WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Procesar_W0024W0007W0009ENTER'))
+
+    WebUI.delay(5)
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.click(findTestObject('Object Repository/Page_LUVITILSE (MOVILES)/input_Histricos Centro Stock_W0027W0007INSERT (1)'))
+
+    WebUI.delay(5)
+
+    WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Centro Stock Usuario/select_ALMACEN DESECHO TIGOALMACEN WODENART_7657fe (1)'), 
+        '9', true)
+
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Usuario_W0024W0007W0009CENTROSTKUSUARIOID'), 
+        Nombre)
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Ingreso_W0024W0007W0009CENTROSTKUSUINGRESAR'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Autorizar_W0024W0007W0009CENTROSTKUSU_523f33'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Procesar_W0024W0007W0009CENTROSTKUSUPROCESAR'))
+
+    WebUI.delay(5)
+
+    WebUI.click(findTestObject('Object Repository/Page_Centro Stock Usuario/input_Procesar_W0024W0007W0009ENTER'))
+
+    WebUI.delay(5)
+
+    WebUI.takeFullPageScreenshot()
 }
 

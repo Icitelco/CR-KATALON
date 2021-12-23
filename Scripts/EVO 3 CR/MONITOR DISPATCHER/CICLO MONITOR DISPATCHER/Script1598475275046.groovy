@@ -27,55 +27,97 @@ String Fecha = CustomKeywords.'CRPREP_FECHA_ORDEN_TECNICO_DISPATCHER.CRPREP_Clie
 
 WebUI.setText(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_Fecha Agenda_vFILAGENDAFECHA'), Fecha)
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_Fecha Agenda_BUTTON1'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_LESTER MENDEZ ANDURAY_vBTNDSP_0001'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_LESTER MENDEZ ANDURAY_OCULTOMUESTRO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_CANCELADO_W0038vFILCANCELADO'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_COMENZADO_W0038vFILCOMENZADO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_INGRESADO_W0038vFILINGRESADO'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_EMITIDO_W0038vFILEMITIDO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_TERMINADO_W0038vFILTERMINADO'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_VISITADO_W0038vFILVISITADO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038vFILRECOORDINADO'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_ACEPTADO_W0038vFILACEPTADO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_DESCONEXIONES CONSOLIDADO_W0038vBTNACE_0001'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_ENVIADO_W0038vFILENVIADO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_ACEPTADO_W0038vFILACEPTADO'))
 
-WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
 
-WebUI.delay(10)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_DESCONEXIONES CONSOLIDADO_W0038vBTNC1_0001'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_ACEPTADO_W0038vFILACEPTADO'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_COMENZADO_W0038vFILCOMENZADO'))
 
-WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
 
-WebUI.delay(10)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_RECOORDINADO_W0038BUTTON1'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_Monitor Orden Agendamiento((Dispatcher)))/input_DESCONEXIONES CONSOLIDADO_W0038vBTNC2_0001'))
+
+WebUI.delay(5)
 

@@ -22,31 +22,59 @@ WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHa
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwmovstock')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Movimientos de Stock/input_Movimientos de Stock_CARGARPLANILLA'))
+
+WebUI.delay(5)
 
 WebUI.uploadFile(findTestObject('COSTA RICA/input_BOTON_CARGAR_ARCHIVO'), 'C:\\Users\\icikatalon\\Desktop\\ARTICULO NUEVO A DEPOSITO.xls')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_699266/input_CARGAR_PROCESAR'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699260/span_Artculos con Serie del Movimiento'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Pgina 1 de 1_W0029W0007SOLICITARAUTORIZACION'))
 
-WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Histrico_W0029W0007AUTORIZAR'))
 
-WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar_W0029W0007vCHECKALL'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Pgina 1 de 1_W0029W0007PROCESAR'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar MovStockNro_CONFIRMAR'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_699277/input_Procesar MovStockNro_VOLVER'))
 

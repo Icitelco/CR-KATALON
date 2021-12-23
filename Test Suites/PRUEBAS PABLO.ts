@@ -14,55 +14,55 @@
    <testCaseLink>
       <guid>78c4bb17-f6ee-433f-8cea-e1c6be8fb285</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/TECNICO/ASIGNARSE COMO TECNICO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>11cbbea6-0ee6-4aaf-8c27-4e9a9717568b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/TECNICO/ASIGNARSE A CENTRO DE STOCK DEPOSITO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bbabe250-831a-40b6-9cfb-a9c950c85dfb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/TECNICO/ASIGNARSE A CENTRO DE STOCK MOVIL</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf4e6523-c5c3-429c-85f1-caee5d988509</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/MOVIMIENTO DE STOCK DESDE PLANILLA NUEVO A DEPOSITO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6cd54934-047a-475f-b784-ad910d2f0743</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/MOVIMIENTO DE STOCK DESDE PLANILLA DEPOSITO A MOVIL</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b5a7ecef-654a-4803-9a2e-274df3d7f29b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/ARTICULOS DVB-NUEVO A DEPOSITO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cde47732-f673-4b28-948f-be3e809c5fea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MOVIMIENTOS DE STOCK/ARTICULOS MTA-NUEVO A DEPOSITO</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7cfbf1fa-d35f-45d0-b6cb-aff73aa3d7f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MONITOR DISPATCHER/ASIGNARSE COMO DISPATCHER</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>624c88ca-72bf-4d87-8f24-74caba129bf5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/MONITOR DISPATCHER/CICLO MONITOR DISPATCHER</testCaseId>
    </testCaseLink>
    <testCaseLink>

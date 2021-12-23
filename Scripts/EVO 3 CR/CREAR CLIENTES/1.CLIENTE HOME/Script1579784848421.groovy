@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcliente')
 
 WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Clientes_INSERT'))
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.waitForElementPresent(findTestObject('Object Repository/input_Nombre_W0033W0007W0009CLIENTENOM'), 130)
 
 WebUI.setText(findTestObject('Object Repository/input_Nombre_W0033W0007W0009CLIENTENOM'), 'PRUEBA KATALON')
@@ -75,11 +77,13 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Cliente/input_  _W0033W0007W0009ENTER'))
 
+WebUI.takeFullPageScreenshot()
+
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_PRUEBA CLIENTE HOME/span_General'))
 
 WebUI.delay(5)
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
