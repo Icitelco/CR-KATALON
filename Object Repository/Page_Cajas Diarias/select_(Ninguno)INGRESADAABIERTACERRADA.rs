@@ -10,12 +10,21 @@
          <value>#vCAJADIASTS</value>
       </entry>
       <entry>
+<<<<<<< HEAD
          <key>BASIC</key>
          <value>//*[@id = 'vCAJADIASTS' and @name = 'vCAJADIASTS']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='vCAJADIASTS']</value>
+=======
+         <key>XPATH</key>
+         <value>//select[@id='vCAJADIASTS']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'vCAJADIASTS' and @name = 'vCAJADIASTS']</value>
+>>>>>>> branch 'main' of https://github.com/Icitelco/CR-KATALON.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

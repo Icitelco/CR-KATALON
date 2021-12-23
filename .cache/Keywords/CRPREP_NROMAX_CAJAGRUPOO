@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "449F86C83A1CB650FA2F60760F20A8C7",
+  "keywordClasses": [
+    {
+      "name": "CRPREP_NROMAX_CAJAGRUPOO",
+      "keywordMethods": [
+        {
+          "name": "CRPREP_Cliente_Numero",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -32,36 +32,29 @@ WebUI.click(findTestObject('Object Repository/Page_HOMEPYMES - MENOR A 20000/spa
 
 WebUI.setText(findTestObject('Object Repository/Page_HOMEPYMES - MENOR A 20000/input_Rol_W0027W0007vROLID'), 'ADM 1')
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.delay(5)
 
 //if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Nivel de Autorizacin de Comprobantes/img_Requiere Archivo Adjunto_vDISPLAY_0001 - Copy'), 
-//   10)) {
+ //   10)) {
 //    WebUI.click(findTestObject('Object Repository/Page_HOMEPYMES - MENOR A 20000/img_Anular_W0027W0007vDELETE_0001'))
+
 //    WebUI.click(findTestObject('Object Repository/Page_ADMINISTRADOR S1GA/input_Anular_W0024W0007W0009ENTER'))
 //} else {
 //    println('NO EXISTE ROL PARA COMPROBANTE')
 //}
+
 WebUI.callTestCase(findTestCase('EVO 3 CR/FACTURACION/NOTA DE CREDITO/CREAR NOTA DE CREDITO'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 String Clientenro = CustomKeywords.'CRPERP_CLIENTE_CON_COMPROBANTEE.CRPREP_Cliente_Numero'()
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwcmpteautorizar')
 
-WebUI.takeFullPageScreenshot()
-
-/*WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/span_Autorizaciones de Cmptes NO aplicadas__6deb02'))*/
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/span_Autorizaciones de Cmptes NO aplicadas__6deb02'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/input_Cliente Nro_vCLIENTENRO'), Clientenro)
 
-WebUI.delay(5)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/select_(Ninguno)COMPROBANTECARGODEVOLUCION'), 
     'F', true)
-
-WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/select_(Ninguno)PENDIENTEAUTORIZADAAPLICADAANULADA'), 
     'P', true)
@@ -76,5 +69,5 @@ WebUI.click(findTestObject('Object Repository/Page_Autorizacin de Comprobantes/i
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot()
+WebUI.verifyElementPresent(findTestObject('AAERROR/div_Usuario no Autorizado a realizar esta a_98d9cb'), 10)
 
