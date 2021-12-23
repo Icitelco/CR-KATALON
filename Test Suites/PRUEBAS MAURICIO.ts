@@ -110,19 +110,19 @@
    <testCaseLink>
       <guid>b12dabb0-4ac5-4fcc-9e01-36d63c17d229</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/EVO 3 CR/FACTURACION/COMPROBANTES/ELIMINARSE DE NIVEL DE COMPROBANTES</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dbbac1e5-69c5-4968-bd70-edf3421e8809</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/EVO 3 CR/FACTURACION/COMPROBANTES/CREAR NOTA DE CREDITO Y TRATAR DE AUTORIZAR SIN NIVEL DE COMPROBANTE</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b917a642-ed9d-415a-8e2f-7e4c7ecb31df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/EVO 3 CR/FACTURACION/COMPROBANTES/ASIGNARSE A NIVEL DE COMPROBANTES</testCaseId>
    </testCaseLink>
    <testCaseLink>

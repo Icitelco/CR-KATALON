@@ -49,14 +49,10 @@ WebUI.click(findTestObject('Object Repository/Page_Cliente/span_Documentos'))
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot()
-
 'INSERTAMOS FACTURA MANUAL'
 WebUI.click(findTestObject('Object Repository/Page_Cliente/input_Histricos_W0033W0007INSERT'))
 
 WebUI.delay(5)
-
-WebUI.takeFullPageScreenshot()
 
 'METODO DE PAGO'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Documento/select_AMERICAN EXPRESS TBCR SIN COMISION B_eb8749'), 
@@ -88,8 +84,6 @@ WebUI.click(findTestObject('Object Repository/Page_Documento/input_Preview_W0026
 
 WebUI.delay(5)
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cliente/select_(Ninguno)FACTURANOTA DE CREDITONOTA _6e5342'), 
     'F', true)
 
@@ -111,8 +105,6 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/input_Hasta Fecha_W0033W0007SEARCHBUTTON'))
 
 WebUI.delay(5)
-
-WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/input_Es de Gobierno_W0033W0007vCREARNC_0001'))
 

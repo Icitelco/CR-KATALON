@@ -31,16 +31,13 @@ String CAJANOMBRE = CustomKeywords.'CRPERP_NOMBRE_CAJAA.CRPREP_Cliente_Numero'()
 
 println(CAJANOMBRE)
 
-/*String CajaGrupoID = CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()*/
+String CajaGrupoID = CustomKeywords.'CRPREP_NROMAX_CAJAGRUPOO.CRPREP_Cliente_Numero'()
 
 WebUI.delay(6)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cajas Diarias/select_ArZANJqjPvYZZrbAOspAHEREDIASGOKseoxB_134ec0'), 
-    '7', true)
-
-/*'SELECCIONAMOS LA CAJA GRUPO'
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cajas Diarias/select_ArZANJqjPvYZZrbAOspASGOKseoxBSoItckh_aebc87'), 
-    CajaGrupoID, true)*/
+'SELECCIONAMOS LA CAJA GRUPO'
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cajas Diarias/select_ArZANJqjPvYZZrbAOspASGOKseoxBSoItckh_aebc87'),
+	CajaGrupoID, true)
 
 'NOMBRE CAJA'
 WebUI.setText(findTestObject('Object Repository/Page_Cajas Diarias/input_Caja_vCAJANOMBRE'), CAJANOMBRE)
@@ -65,8 +62,13 @@ WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias/a_Valores'))
 'ABRIR CAJA DIA'
 WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Cierre_vABRIR_0001'))
 
-/*WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Confirma abrir Caja_I_BUTTONCONFIRMYES'))*/
+WebUI.click(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/input_Confirma abrir Caja_I_BUTTONCONFIRMYES'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA'), 
-    'A', true)
+WebUI.selectOptionByValue(findTestObject('Page_Cajas Diarias de Oficina/select_(Ninguno)INGRESADAABIERTACERRADA'),
+	'A', true)
 
+/*
+WebUI.click(findTestObject('Object Repository/Page_Caja Diaria/input_Pgina 1 de 1_W0027W0007ABRIRCAJA'))
+
+WebUI.click(findTestObject('Object Repository/Page_Caja Diaria/input_Confirma ABRIR Caja_W0027W0007I_BUTTO_12495e'))
+*/

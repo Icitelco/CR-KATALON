@@ -10,12 +10,12 @@
          <value>#vCAJADIASTS</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'vCAJADIASTS' and @name = 'vCAJADIASTS']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='vCAJADIASTS']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'vCAJADIASTS' and @name = 'vCAJADIASTS']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
