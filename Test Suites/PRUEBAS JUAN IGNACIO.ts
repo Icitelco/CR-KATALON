@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1a92033f-49e9-40f1-8aaf-c1f835325f22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/EVO 3 CR/WORKFLOW/CONFIGURACION USUARIOS</testCaseId>
    </testCaseLink>
    <testCaseLink>

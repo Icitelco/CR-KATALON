@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Cierre_vABRIR_0001</name>
+   <name>input_Desde Fecha_W0033W0007vFROMFACTURAFCH</name>
    <tag></tag>
-   <elementGuidId>cbf8f30e-b903-4edb-9732-54645b3a54b3</elementGuidId>
+   <elementGuidId>cf7be8de-7547-4782-ab44-eaa1ff63955b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#vABRIR_0001</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'image' and @src = '/SIGA-TG/static/Resources/sPelotaVerde.png' and @name = 'vABRIR_0001' and @id = 'vABRIR_0001' and @alt = 'Abrir Caja' and @title = 'Abrir Caja']</value>
+         <value>//*[@type = 'text' and @id = 'W0033W0007vFROMFACTURAFCH' and @name = 'W0033W0007vFROMFACTURAFCH']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='vABRIR_0001']</value>
+         <value>//input[@id='W0033W0007vFROMFACTURAFCH']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#W0033W0007vFROMFACTURAFCH</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -32,97 +32,104 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>image</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/SIGA-TG/static/Resources/sPelotaVerde.png</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>vABRIR_0001</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>if( gx.evt.jsEvent(this)) {gx.evt.execEvt('',false,'EVABRIR.CLICK.0001',this,86);return false;} else return false;</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vABRIR_0001</value>
+      <value>W0033W0007vFROMFACTURAFCH</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Abrir Caja</value>
+      <value>W0033W0007vFROMFACTURAFCH</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Abrir Caja</value>
+      <value>22/08/2021</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>10</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>10</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>Image</value>
+      <value>Attribute_FilterDate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onfocus</name>
       <type>Main</type>
-      <value>gx.evt.onfocus(this, 90,'',false,'',86)</value>
+      <value>gx.evt.onfocus(this, 74,'W0033W0007',false,'0001',0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>gx.evt.onchange(this)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>gx.date.valid_date(this, 10,'DMY',0,24,'spa',false,0);;gx.evt.onblur(this,74);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vABRIR_0001&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>gxvalid</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>id(&quot;W0033W0007vFROMFACTURAFCH&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='vABRIR_0001']</value>
+      <value>//input[@id='W0033W0007vFROMFACTURAFCH']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='GridContainerRow_0001']/td[4]/input</value>
+      <value>//div[@id='W0033W0007vFROMFACTURAFCH_dp_container']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/table/tbody/tr/td[4]/input</value>
+      <value>//td[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

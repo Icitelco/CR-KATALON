@@ -33,26 +33,28 @@ WebUI.click(findTestObject('Object Repository/Page_Clientes/input_Home Pack_SEAR
 
 WebUI.click(findTestObject('Object Repository/Page_Clientes/img_Cantidad facturas_vDISPLAY_0001'))
 
-WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/span_Documentos'))
+WebUI.click(findTestObject('Object Repository/Page_CLIENTE APELLIDO-A/span_Documentos'))
 
 WebUI.delay(5)
 
 'PESTAÑA RECIBOS'
-WebUI.click(findTestObject('Object Repository/Page_JOSE URGELLES CHAVARRIA/span_Recibos'))
+WebUI.click(findTestObject('Object Repository/Page_ANA BORDALLO ABAD/span_Recibos'))
 
 WebUI.delay(5)
 
 String Recibonro = CustomKeywords.'CRPREP_RECIBO_DE_CLIENTE.CRPREP_Cliente_Numero'(Clientenro)
 
-WebUI.setText(findTestObject('Page_CLIENTE APELLIDO-A/input_Nmero_W0033W0007vRECIBONRO'),Recibonro)
+WebUI.setText(findTestObject('Object Repository/Page_CLIENTE APELLIDO-A/input_Nmero_W0033W0007vRECIBONRO'), Recibonro)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/input_Nro Deposito_W0033W0007vANULARRECIBO_0001'))
+WebUI.click(findTestObject('Page_CLIENTE APELLIDO/input_Autorizacion_W0033W0007vANULARRECIBO_0001'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_CLIENTE APELLIDO/input_Confirma ANULAR Recibo_W0033W0007I_BU_ded17a'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/input_Confirma ANULAR Recibo_W0033W0007I_BU_ded17a'))
-
-WebUI.click(findTestObject('Page_CLIENTE APELLIDO-A/span_Documentos'))
+WebUI.click(findTestObject('Object Repository/Page_CLIENTE APELLIDO/span_Documentos'))
 

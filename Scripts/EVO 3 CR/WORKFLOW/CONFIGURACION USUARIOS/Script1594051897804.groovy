@@ -21,7 +21,9 @@ WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHa
 
 WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwflusr')
 
-String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Usuarios de Flujo/span_MAURICIO ARCAUZ'))
+WebUI.click(findTestObject('Object Repository/Page_SIGA Software/svg_FERNANDO PENSATORI_feather feather-menu'))
+
+String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Grupo de Atencin de Cajas/span_FERNANDO PENSATORI'))
 
 String Usuario = CustomKeywords.'CRPREP_USUARIOLOGEADO.CRPREP_Cliente_Numero'(Nombre)
 
@@ -29,8 +31,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Usuarios de Flujo/input_Nom
 
 WebUI.delay(5)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Usuarios de Flujo/img_Puede Activar Etapas_vDISPLAY_0001'), 
-    10)) {
+String usuarioWorkflow = CustomKeywords.'CRPRERP_FORMULARIO_WRFLW.CRPREP_Existe_Usuario'(Nombre)
+println(usuarioWorkflow)
+
+if (usuarioWorkflow != null) {
     WebUI.click(findTestObject('Object Repository/Page_Usuarios de Flujo/img_Puede Activar Etapas_vDISPLAY_0001'))
 } else {
     WebUI.click(findTestObject('Object Repository/Page_Usuarios de Flujo/input_Usuarios de Flujo_INSERT'))

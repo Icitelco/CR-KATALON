@@ -6,6 +6,10 @@
    <elementGuidId>d8f87ce9-ebb6-490a-b586-769769c30b03</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#vCAJAGRUPOSTS</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'vCAJAGRUPOSTS' and @name = 'vCAJAGRUPOSTS']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//select[@id='vCAJAGRUPOSTS']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,14 +77,7 @@
       <value>if(!(gx.evt.jsEvent(this))) return false;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-gxvalid</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -93,6 +90,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vCAJAGRUPOSTS&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gxvalid</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

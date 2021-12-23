@@ -21,9 +21,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class CRPRERP_GRUPO_FLUJO {
+public class CRPREP_TECNICOID {
 	@Keyword
-	def CRPREP_Cliente_Numero(){
+	def CRPREP_Cliente_Numero(String UsuarioNombre){
 		Connection connection= null;
 		connection = CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.createConnection'(com.katalon.plugin.keyword.connection.DBType.oracle,
 				'10.45.160.30', '1521', 'SIGAPREP','SIGATG', 'U0lHQVRH')
@@ -31,7 +31,7 @@ public class CRPRERP_GRUPO_FLUJO {
 
 		ResultSet rs;
 
-		String query="select FLGPOUSRNOMBRE FROM SIGATG.FLGPOUSR WHERE FLGPOUSR IN (SELECT MAX (FLGPOUSR)FROM SIGATG.FLGPOUSR)"
+		String query="select TECNICOID from SIGATG.TECNICO where TECNICONOMBRE=".concat("'").concat(UsuarioNombre).concat("'")
 
 		rs=CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.executeQuery'(connection,query)
 
@@ -45,5 +45,4 @@ public class CRPRERP_GRUPO_FLUJO {
 
 		return prueba;
 	}
-
 }

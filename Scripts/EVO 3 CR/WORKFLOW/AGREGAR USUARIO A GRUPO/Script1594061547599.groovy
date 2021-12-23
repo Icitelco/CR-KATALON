@@ -19,13 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('EVO 3 CR/LOGIN EVO 3 CR/LOGIN'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('http://10.7.148.132:8080/SIGA-TG/servlet/wwflgpousr')
+WebUI.click(findTestObject('Object Repository/Page_SIGA Software/svg_FERNANDO PENSATORI_feather feather-menu'))
 
-String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Usuarios de Flujo/span_MAURICIO ARCAUZ'))
+String Nombre = WebUI.getText(findTestObject('Object Repository/Page_Grupo de Atencin de Cajas/span_FERNANDO PENSATORI'))
 
-String Usuario = CustomKeywords.'CRPREP_USUARIOLOGEADO.CRPREP_Cliente_Numero'(Nombre)
+String Usuario = CustomKeywords.'CRPREP_USUARIOLOGEADO.CRPREP_Cliente_Numero'(Nombre);
+println(Usuario);
 
-String GrupoFlujo=CustomKeywords.'CRPRERP_GRUPO_FLUJO.CRPREP_Cliente_Numero'()
+String GrupoFlujo = CustomKeywords.'CRPRERP_GRUPO_FLUJO.CRPREP_Cliente_Numero'()
 
 WebUI.setText(findTestObject('Object Repository/Page_Grupos del Flujo/input_Usuario Flujo_vFLGPOUSRNOMBRE'), GrupoFlujo)
 

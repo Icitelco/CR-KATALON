@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>//input[@name='W0033W0007I_BUTTONCONFIRMYES']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @name = 'W0033W0007I_BUTTONCONFIRMYES' and @title = 'Aceptar']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

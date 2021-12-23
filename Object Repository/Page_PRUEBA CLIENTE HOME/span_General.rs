@@ -4,6 +4,12 @@
    <name>span_General</name>
    <tag></tag>
    <elementGuidId>fa0f7493-8e80-4071-a996-830761b351b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'General' or . = 'General')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

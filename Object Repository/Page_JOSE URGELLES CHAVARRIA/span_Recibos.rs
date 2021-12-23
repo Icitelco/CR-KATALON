@@ -6,12 +6,12 @@
    <elementGuidId>9c18b80e-d308-41df-a774-f65141f01953</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ReciboTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;][count(. | //*[(text() = 'Recibos' or . = 'Recibos')]) = count(//*[(text() = 'Recibos' or . = 'Recibos')])]</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='ReciboTab']/span/span/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;ReciboTab&quot;)/span[@class=&quot;TabRight&quot;]/span[@class=&quot;TabBackground&quot;]/span[@class=&quot;TabText&quot;][count(. | //*[(text() = 'Recibos' or . = 'Recibos')]) = count(//*[(text() = 'Recibos' or . = 'Recibos')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
